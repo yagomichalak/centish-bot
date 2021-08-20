@@ -1,0 +1,16 @@
+{
+    "words": [
+        {"word": "Qk", "translation": "I", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Dk", "translation": "You", "type": "Pronoun", "note": "Used for both singular and plural.", "examples": []},
+        {"word": "Hk", "translation": "He", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Sk", "translation": "She", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Tk", "translation": "It", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Wk", "translation": "We", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Mk", "translation": "They", "type": "Pronoun", "note": "", "examples": []},
+        {"word": "Mahneed", "translation": "Love", "type": "Noun", "note": "", "examples": []},
+        {"word": "Futur", "translation": "Future", "type": "Noun", "note": "", "examples": []},
+        {"word": "Butur", "translation": "Past", "type": "Noun", "note": "", "examples": []},
+        {"word": "Fafter", "translation": "After", "type": "Noun", "note": "", "examples": []},
+        {"word": "Bafter", "translation": "Before", "type": "Noun", "note": "", "examples": []}
+    ]
+}
