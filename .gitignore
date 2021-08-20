@@ -1,0 +1,7 @@
+.env
+venv
+.vs/
+sloth.sql
+.idea/
+**/__pycache__/
+tests/
