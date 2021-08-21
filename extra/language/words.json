@@ -33,6 +33,11 @@
         {"word": "Vupe", "translation": "Who", "types": ["Question", "Pronoun"], "note": "", "examples": []},
         {"word": "Vupes", "translation": "Whose", "types": ["Question", "Pronoun", "Determiner"], "note": "", "examples": []},
         {"word": "Kak", "translation": "How", "types": ["Question", "Adverb"], "note": "", "examples": []},
-        {"word": "Trota", "translation": "How much/many", "types": ["Question"], "note": "", "examples": []}        
+        {"word": "Trota", "translation": "How much/many", "types": ["Question"], "note": "", "examples": []},
+        {"word": "Vankeder", "translation": "To want", "types": ["Verb"], "note": "Basic conjugation: vanke", "examples": []},
+        {"word": "Venopeder", "translation": "To see", "types": ["Verb"], "note": "Basic conjugation: venope", "examples": []},
+        {"word": "Ezeder", "translation": "To hear/listen", "types": ["Verb"], "note": "Basic conjugation: eze", "examples": []},
+        {"word": "Patarder", "translation": "To speak/talk/say/tell", "types": ["Verb"], "note": "Basic conjugation: patar", "examples": []},
+        {"word": "Ede", "translation": "With", "types": ["Preposition"], "note": "", "examples": []}
     ]
 }
