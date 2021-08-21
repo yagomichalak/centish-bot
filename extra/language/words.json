@@ -29,7 +29,7 @@
         {"word": "Mid", "translation": "Maybe", "types": ["Question"], "note": "", "examples": []},
         {"word": "Ne", "translation": "What", "types": ["Question", "Pronoun", "Determiner", "Exclamation", "Adverb"], "note": "", "examples": []},
         {"word": "Luma", "translation": "Why", "types": ["Question", "Pronoun", "Determiner"], "note": "", "examples": []},
-        {"word": "Zek", "translation": "Which", "types": ["Question"], "note": "", "examples": []},
+        {"word": "Zek", "translation": "Which", "types": ["Question", "Pronoun", "Determiner"], "note": "", "examples": []},
         {"word": "Vupe", "translation": "Who", "types": ["Question", "Pronoun"], "note": "", "examples": []},
         {"word": "Vupes", "translation": "Whose", "types": ["Question", "Pronoun", "Determiner"], "note": "", "examples": []},
         {"word": "Kak", "translation": "How", "types": ["Question", "Adverb"], "note": "", "examples": []},

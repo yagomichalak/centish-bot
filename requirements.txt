@@ -1,0 +1,4 @@
+git+https://github.com/Rapptz/discord.py
+python-dotenv==0.0.19
+discord==1.0.1
+pytz==2021.1
