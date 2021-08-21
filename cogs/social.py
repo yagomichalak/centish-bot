@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from extra import utils
 import os
+from typing import Union
 
 dnk_id = int(os.getenv('DNK_ID'))
 cent_id = int(os.getenv('CENT_ID'))
@@ -50,6 +51,35 @@ class Social(commands.Cog):
         em.set_footer(text=f"Created: {guild.created_at.strftime('%d/%m/%y')} ({created_at})")
         await ctx.send(embed=em)
 
+    @commands.command(aliases=['user', 'whois', 'who_is'])
+    async def userinfo(self, ctx, member: Union[discord.Member, discord.User] = None):
+        """ Shows all the information about a member.
+        :param member: The member to show the info.
+        :return: An embedded message with the user's information. """
+
+        member = ctx.author if not member else member
+
+        embed = discord.Embed(colour=member.color, timestamp=ctx.message.created_at)
+
+        embed.set_author(name=f"User Info: {member}")
+        embed.set_thumbnail(url=member.avatar.url)
+        embed.set_footer(text=f"Requested by {ctx.author}", icon_url=ctx.author.avatar.url)
+
+        embed.add_field(name="ID:", value=member.id, inline=False)
+
+        if hasattr(member, 'guild'):
+            embed.add_field(name="Guild name:", value=member.display_name, inline=False)
+            sorted_time_create = f"<t:{int(member.created_at.timestamp())}:R>"
+            sorted_time_join = f"<t:{int(member.joined_at.timestamp())}:R>"
+
+            embed.add_field(name="Created at:", value=f"{member.created_at.strftime('%d/%m/%y')} ({sorted_time_create}) **GMT**",
+                            inline=False)
+            embed.add_field(name="Joined at:", value=f"{member.joined_at.strftime('%d/%m/%y')} ({sorted_time_join}) **GMT**", inline=False)
+
+            embed.add_field(name="Top role:", value=member.top_role.mention, inline=False)
+
+        embed.add_field(name="Bot?", value=member.bot)
+        await ctx.send(embed=embed)
 
 def setup(client) -> None:
     """ Cog's setup function. """
