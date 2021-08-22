@@ -38,6 +38,11 @@
         {"word": "Venopeder", "translation": "To see", "types": ["Verb"], "note": "Basic conjugation: venope", "examples": []},
         {"word": "Ezeder", "translation": "To hear/listen", "types": ["Verb"], "note": "Basic conjugation: eze", "examples": []},
         {"word": "Patarder", "translation": "To speak/talk/say/tell", "types": ["Verb"], "note": "Basic conjugation: patar", "examples": []},
-        {"word": "Ede", "translation": "With", "types": ["Preposition"], "note": "", "examples": []}
+        {"word": "Ede", "translation": "With", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Wadserder", "translation": "To know", "types": ["Verb"], "note": "Basic conjugation: wadser", "examples": []},
+        {"word": "Soh", "translation": "If", "types": ["Conjunction"], "note": "", "examples": []},
+        {"word": "Froup", "translation": "When", "types": ["Adverb", "Conjunction"], "note": "", "examples": []},
+        {"word": "Grapas", "translation": "Thank you", "types": ["Exclamation", "Noun"], "note": "", "examples": []},
+        {"word": "Gok", "translation": "Something", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
