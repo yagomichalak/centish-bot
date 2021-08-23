@@ -48,6 +48,11 @@
         {"word": "Protander", "translation": "(to) can/be able to", "types": ["Verb"], "note": "Basic conjugation: protan", "examples": []},
         {"word": "Moz", "translation": "More", "types": ["Determiner", "Pronoun", "Adverb"], "note": "", "examples": []},
         {"word": "Loz", "translation": "Less", "types": ["Determiner", "Pronoun", "Adverb"], "note": "", "examples": []},
-        {"word": "U", "translation": "In/at", "types": ["Preposition"], "note": "", "examples": []}
+        {"word": "U", "translation": "In/at", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Benis", "translation": "Good/Well", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Malis", "translation": "Bad", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Pardul", "translation": "Pardon/Sorry", "types": ["Exclamation", "Adjective"], "note": "Can be used as 'you're welcome' after someone says 'thank you'", "examples": []},
+        {"word": "Akra", "translation": "Water", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Naggis", "translation": "Nothing", "types": ["Pronoun", "Noun"], "note": "", "examples": []}
     ]
 }
