@@ -53,6 +53,21 @@
         {"word": "Malis", "translation": "Bad", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Pardul", "translation": "Pardon/Sorry", "types": ["Exclamation", "Adjective"], "note": "Can be used as 'you're welcome' after someone says 'thank you'", "examples": []},
         {"word": "Akra", "translation": "Water", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Naggis", "translation": "Nothing", "types": ["Pronoun", "Noun"], "note": "", "examples": []}
+        {"word": "Naggis", "translation": "Nothing", "types": ["Pronoun", "Noun"], "note": "", "examples": []},
+        {"word": "Benin", "translation": "Beginning", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Minin", "translation": "Middle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Finin", "translation": "Ending", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Humes", "translation": "Human", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bafhumes", "translation": "Baby", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Binhumes", "translation": "Child", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Minhumes", "translation": "Teenager", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Finhumes", "translation": "Adult", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fafhumes", "translation": "Elder/Old person", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Memre", "translation": "Boy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Femre", "translation": "Girl", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Memfinhumes", "translation": "Man", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Femfinhumes", "translation": "Woman", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Esciepo", "translation": "Except", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Mayneder", "translation": "To order/demand", "types": ["Verb"], "note": "Basic conjugation: mayne", "examples": []}
     ]
 }
