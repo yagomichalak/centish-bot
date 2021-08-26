@@ -73,6 +73,16 @@
         {"word": "Ila", "translation": "Island", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Cafasta", "translation": "Tired", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Fehe", "translation": "Happy", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Trimis", "translation": "Sad", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Trimis", "translation": "Sad", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Informazza", "translation": "Information", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Linkra", "translation": "Link", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ascieder", "translation": "To go", "types": ["Verb"], "note": "Basic conjugation: ascie", "examples": []},
+        {"word": "Ianscieder", "translation": "To come", "types": ["Verb"], "note": "Basic conjugation: ianscie", "examples": []},
+        {"word": "Benianscieder", "translation": "To welcome", "types": ["Verb"], "note": "Basic conjugation: benianscie", "examples": []},
+        {"word": "Alrimeder", "translation": "To learn", "types": ["Verb"], "note": "Basic conjugation: alrimede", "examples": []},
+        {"word": "Benianscier", "translation": "Welcome", "types": ["Exclamation", "Noun"], "note": "", "examples": []},
+        {"word": "Servelis", "translation": "Server", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Krenkre", "translation": "Betwee/Among", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Menfes", "translation": "During", "types": ["Preposition"], "note": "", "examples": []}
     ]
 }
