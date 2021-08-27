@@ -83,6 +83,12 @@
         {"word": "Benianscier", "translation": "Welcome", "types": ["Exclamation", "Noun"], "note": "", "examples": []},
         {"word": "Servelis", "translation": "Server", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Krenkre", "translation": "Betwee/Among", "types": ["Preposition"], "note": "", "examples": []},
-        {"word": "Menfes", "translation": "During", "types": ["Preposition"], "note": "", "examples": []}
+        {"word": "Menfes", "translation": "During", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Pazde", "translation": "Because", "types": ["Conjunction"], "note": "", "examples": []},
+        {"word": "Reem", "translation": "King", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rilis", "translation": "Queen", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Preem", "translation": "Prince", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prilis", "translation": "Princess", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rezom", "translation": "Kingdom", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
