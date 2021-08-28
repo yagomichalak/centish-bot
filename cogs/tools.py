@@ -5,6 +5,7 @@ import io
 import textwrap
 import traceback
 from contextlib import redirect_stdout
+from extra import utils
 
 class Tools(commands.Cog):
     """ A category for tool commands. """
@@ -36,6 +37,73 @@ class Tools(commands.Cog):
 
         msg = ctx.message.content.split(ctx.message.content.split(' ')[0], 1)
         embed = discord.Embed(description=msg[1], color=ctx.author.color)
+        await ctx.send(embed=embed)
+
+    @commands.group(name='post')
+    async def _post(self, ctx) -> None:
+        """ Posts something. """
+
+        await ctx.message.delete()
+        if ctx.invoked_subcommand:
+            return
+
+        cmd = self.client.get_command(ctx.command.name)
+        prefix = self.client.command_prefix
+        subcommands = [f"{prefix}{c.qualified_name}" for c in cmd.commands]
+
+        subcommands = '\n'.join(subcommands)
+        embed = discord.Embed(
+            title="Subcommads",
+            description=f"```apache\n{subcommands}```",
+            color=ctx.author.color,
+            timestamp=ctx.message.created_at
+        )
+        await ctx.send(embed=embed)
+
+
+    
+    @_post.command(name="update", aliases=['daily_update', 'du', 'daily'])
+    @commands.has_permissions(administrator=True)
+    async def _update(self, ctx, *, text: str = None) -> None:
+        """ Posts a daily update type of message into the channel.
+        :param text: The text to post.
+        
+        PS: The text will be wrapped up in triple tick tags. """
+
+        current_ts = await utils.get_timestamp()
+
+        author = ctx.author
+
+        embed = discord.Embed(
+            title="__Daily Update__:",
+            description=f"```apache\n{text}```",
+            color=1234566,
+            timestamp=ctx.message.created_at)
+        embed.set_author(name=author, icon_url=author.avatar.url, url=author.avatar.url)
+
+        await ctx.send(content=f"<t:{int(current_ts)}>", embed=embed)
+
+    @_post.command(name="message", aliases=["msg"])
+    @commands.has_permissions(administrator=True)
+    async def _message(self, ctx, title: str = None, *, text: str = None) -> None:
+        """ Posts a normal message with title into the channel.
+        :param text: The text to post.
+        
+        PS: The text will be wrapped up in triple tick tags. """
+
+        author = ctx.author
+
+        if not text:
+            return await ctx.send(f"**Please, inform a text to send, {author.mention}!**")
+
+        if not title:
+            return await ctx.send(f"**Please, inform a title of your message, {author.mention}!**")
+
+        embed = discord.Embed(
+            title=f"__{title}__:",
+            description=f"```apache\n{text}```",
+            color=1234566)
+
         await ctx.send(embed=embed)
 
     @commands.command()
