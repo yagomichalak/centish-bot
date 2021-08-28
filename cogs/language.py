@@ -2,7 +2,8 @@ import discord
 from discord.ext import commands
 from extra.language.centish import Centish
 from typing import Optional, List
-from extra.menus import PaginateView
+from extra.menus import WordPaginationView
+from extra import utils
 
 class Language(commands.Cog, Centish):
     """ Category for commands related to the Centish language. """
@@ -43,48 +44,21 @@ class Language(commands.Cog, Centish):
         else:
             word_type = 'all'
 
-
-        index = 0
-        words = words[index:index+15]
-        
-        
-        # Creates basic embed
-        embed = discord.Embed(
-            title=f"__Showing Words__: ({word_type.title()})",
-            color=author.color,
-            timestamp=ctx.message.created_at
-        )
-
-        # Makes header
-        temp_text1 = f"{'[Word]':^12} | {'[Translation]':<13} | {'[Types]':^15}"
-        embed.add_field(
-            name=f"{'='*50}",
-            value=f"```ini\n{temp_text1}```",
-            inline=False
-        )
-
-        # Formats words
-        formatted_words = [
-            f"""{w['word']:<12} | {w['translation']:<13} | {', '.join(
-                [wt[:3] for wt in w['types']]
-                ):>15}""" for w in words
-        ]
-        formatted_words = '\n'.join(formatted_words)
-
-        # Creates field for formatted words
-        embed.add_field(
-            name=f"{'='*50}",
-            value=f"```apache\n{formatted_words}```",
-            inline=False
-        )
+        data = {
+            'word_type': word_type,
+            'words': words
+        }
 
         # Paginates word list
-        view = PaginateView(author, words)
+        view = WordPaginationView(author, data)
+        embed = await view.get_page()
+
         msg = await ctx.send(embed=embed, view=view)
 
         await view.wait()
-        
-        await ctx.send("Ahh")
+
+        await utils.disable_buttons(view)
+        await msg.edit(view=view)
         
 
         
