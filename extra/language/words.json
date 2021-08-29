@@ -111,6 +111,16 @@
         {"word": "Purhumes", "translation": "Person", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Spakam", "translation": "Nice/Cool", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Pur", "translation": "For/to", "types": ["Prepositions"], "note": "", "examples": []},
-        {"word": "Sout", "translation": "About", "types": ["Prepositions"], "note": "", "examples": []}
+        {"word": "Sout", "translation": "About", "types": ["Prepositions"], "note": "", "examples": []},
+        {"word": "Basdisvider", "translation": "To discuss", "types": ["Verb"], "note": "Basic conjugation: basdisvi", "examples": []},
+        {"word": "Milauder", "translation": "To improve", "types": ["Verb"], "note": "Basic conjugation: milau", "examples": []},
+        {"word": "Atuazianider", "translation": "To update", "types": ["Verb"], "note": "Basic conjugation: atuaziani", "examples": []},
+        {"word": "Atuazia", "translation": "Update", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ambinke", "translation": "Environment", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Intrispis", "translation": "Interesting", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Mujbo", "translation": "Very", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Teche", "translation": "Too/Also", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Tun", "translation": "This", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
+        {"word": "Matun", "translation": "That", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []}
     ]
 }
