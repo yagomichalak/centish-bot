@@ -40,6 +40,7 @@ class Tools(commands.Cog):
         await ctx.send(embed=embed)
 
     @commands.group(name='post')
+    @commands.has_permissions(administrator=True)
     async def _post(self, ctx) -> None:
         """ Posts something. """
 
@@ -63,7 +64,6 @@ class Tools(commands.Cog):
 
     
     @_post.command(name="update", aliases=['daily_update', 'du', 'daily'])
-    @commands.has_permissions(administrator=True)
     async def _update(self, ctx, *, text: str = None) -> None:
         """ Posts a daily update type of message into the channel.
         :param text: The text to post.
@@ -84,7 +84,6 @@ class Tools(commands.Cog):
         await ctx.send(content=f"<t:{int(current_ts)}>", embed=embed)
 
     @_post.command(name="message", aliases=["msg"])
-    @commands.has_permissions(administrator=True)
     async def _message(self, ctx, title: str = None, *, text: str = None) -> None:
         """ Posts a normal message with title into the channel.
         :param text: The text to post.
@@ -105,6 +104,49 @@ class Tools(commands.Cog):
             color=1234566)
 
         await ctx.send(embed=embed)
+
+    @commands.group(name='edit')
+    @commands.has_permissions(administrator=True)
+    async def _edit(self, ctx) -> None:
+        """ Edits something. """
+
+        await ctx.message.delete()
+        if ctx.invoked_subcommand:
+            return
+
+        cmd = self.client.get_command(ctx.command.name)
+        prefix = self.client.command_prefix
+        subcommands = [f"{prefix}{c.qualified_name}" for c in cmd.commands]
+
+        subcommands = '\n'.join(subcommands)
+        embed = discord.Embed(
+            title="Subcommads",
+            description=f"```apache\n{subcommands}```",
+            color=ctx.author.color,
+            timestamp=ctx.message.created_at
+        )
+        await ctx.send(embed=embed)
+
+    @_edit.command(name="message")
+    async def _message(self, ctx, message_id: int, *, text: str) -> None:
+        """ Edits a bot's message.
+        :param message_id: The ID of the message to edit.
+        :param text: The new text for that given message. """
+
+        member = ctx.author
+        if not message_id:
+            return await ctx.send(f"**Please, inform a message ID, {member.mention}!")
+
+        if not text:
+            return await ctx.send(f"**Please, inform a text message, {member.mention}!**")
+
+        message = await ctx.channel.fetch_message(message_id)
+        if not message:
+            return await ctx.send(f"**Invalid message, {member.mention}!**")
+
+        embed = message.embeds[0]
+        embed.description = text
+        await message.edit(embed=embed)
 
     @commands.command()
     @commands.has_permissions(administrator=True)
