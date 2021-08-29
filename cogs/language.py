@@ -25,7 +25,7 @@ class Language(commands.Cog, Centish):
 
         words = await self.get_words()
         await ctx.send(
-            f"**There are currently `{len(words['words'])}` words in the `Centish` language, {author.mention}!**")
+            f"**There are currently `{len(words['words'])}` words in the `Centish` language, {ctx.author.mention}!**")
 
     
     @commands.group()
