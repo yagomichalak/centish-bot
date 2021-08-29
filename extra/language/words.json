@@ -82,7 +82,7 @@
         {"word": "Alrimeder", "translation": "To learn", "types": ["Verb"], "note": "Basic conjugation: alrimede", "examples": []},
         {"word": "Benianscier", "translation": "Welcome", "types": ["Exclamation", "Noun"], "note": "", "examples": []},
         {"word": "Servelis", "translation": "Server", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Krenkre", "translation": "Betwee/Among", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Krenkre", "translation": "Between/Among", "types": ["Preposition"], "note": "", "examples": []},
         {"word": "Menfes", "translation": "During", "types": ["Preposition"], "note": "", "examples": []},
         {"word": "Pazde", "translation": "Because", "types": ["Conjunction"], "note": "", "examples": []},
         {"word": "Reem", "translation": "King", "types": ["Noun"], "note": "", "examples": []},
