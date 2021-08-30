@@ -127,7 +127,7 @@ class Tools(commands.Cog):
         )
         await ctx.send(embed=embed)
 
-    @_edit.command(name="message")
+    @_edit.command(name="message", aliases=['msg'])
     async def _message(self, ctx, message_id: int, *, text: str) -> None:
         """ Edits a bot's message.
         :param message_id: The ID of the message to edit.

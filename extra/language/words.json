@@ -121,6 +121,16 @@
         {"word": "Mujbo", "translation": "Very", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Teche", "translation": "Too/Also", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Tun", "translation": "This", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
-        {"word": "Matun", "translation": "That", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []}
+        {"word": "Matun", "translation": "That", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
+        {"word": "Manscieluder", "translation": "To maintain", "types": ["Verb"], "note": "Basic conjugation: manscielu", "examples": []},
+        {"word": "Detatuder", "translation": "To dedicate", "types": ["Verb"], "note": "Basic conjugation: detatu", "examples": []},
+        {"word": "Soregnieder", "translation": "To dream", "types": ["Verb"], "note": "Basic conjugation: soregnie", "examples": []},
+        {"word": "Customis", "translation": "Custom", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Extris", "translation": "Extra", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Kiriqua", "translation": "Some", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Fonglores", "translation": "Functionality", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Desviluma", "translation": "Development", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Idai", "translation": "Idea", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Soregnia", "translation": "Dream", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
