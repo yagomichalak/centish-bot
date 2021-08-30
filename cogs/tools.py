@@ -64,7 +64,7 @@ class Tools(commands.Cog):
 
     
     @_post.command(name="update", aliases=['daily_update', 'du', 'daily'])
-    async def _update(self, ctx, *, text: str = None) -> None:
+    async def _post_update(self, ctx, *, text: str = None) -> None:
         """ Posts a daily update type of message into the channel.
         :param text: The text to post.
         
@@ -84,7 +84,7 @@ class Tools(commands.Cog):
         await ctx.send(content=f"<t:{int(current_ts)}>", embed=embed)
 
     @_post.command(name="message", aliases=["msg"])
-    async def _message(self, ctx, title: str = None, *, text: str = None) -> None:
+    async def _post_message(self, ctx, title: str = None, *, text: str = None) -> None:
         """ Posts a normal message with title into the channel.
         :param text: The text to post.
         
@@ -128,7 +128,7 @@ class Tools(commands.Cog):
         await ctx.send(embed=embed)
 
     @_edit.command(name="message", aliases=['msg'])
-    async def _message(self, ctx, message_id: int, *, text: str) -> None:
+    async def _edit_message(self, ctx, message_id: int, *, text: str) -> None:
         """ Edits a bot's message.
         :param message_id: The ID of the message to edit.
         :param text: The new text for that given message. """
