@@ -131,6 +131,16 @@
         {"word": "Fonglores", "translation": "Functionality", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Desviluma", "translation": "Development", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Idai", "translation": "Idea", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Soregnia", "translation": "Dream", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Soregnia", "translation": "Dream", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Condruteder", "translation": "To construct", "types": ["Verb"], "note": "Basic conjugation: condrute", "examples": []},
+        {"word": "Rimeder", "translation": "To laugh", "types": ["Verb"], "note": "Basic conjugation: rime", "examples": []},
+        {"word": "Opinai", "translation": "Opinion", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sujdai", "translation": "Suggestion", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Basdisva", "translation": "Discussion", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vama", "translation": "Any", "types": ["Determiner", "Pronoun", "Adverb"], "note": "Anything = Vama gok(something)", "examples": []},
+        {"word": "Belis", "translation": "Beautiful", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Moscis", "translation": "Ugly", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Purferebu", "translation": "Perfect", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Stumpriskas", "translation": "Amazing", "types": ["Adjective"], "note": "", "examples": []},
     ]
 }
