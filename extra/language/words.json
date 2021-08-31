@@ -141,6 +141,6 @@
         {"word": "Belis", "translation": "Beautiful", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Moscis", "translation": "Ugly", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Purferebu", "translation": "Perfect", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Stumpriskas", "translation": "Amazing", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Stumpriskas", "translation": "Amazing", "types": ["Adjective"], "note": "", "examples": []}
     ]
 }
