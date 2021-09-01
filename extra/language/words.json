@@ -141,6 +141,16 @@
         {"word": "Belis", "translation": "Beautiful", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Moscis", "translation": "Ugly", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Purferebu", "translation": "Perfect", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Stumpriskas", "translation": "Amazing", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Stumpriskas", "translation": "Amazing", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Tuzim", "translation": "All/every", "types": ["Determiner", "Predeterminer", "Pronoun"], "note": "", "examples": []},
+        {"word": "Gibinfe", "translation": "Daily", "types": ["Adverb", "Adjective"], "note": "", "examples": []},
+        {"word": "Promipius", "translation": "Own", "types": ["Pronoun", "Adjective"], "note": "", "examples": []},
+        {"word": "Muroldu", "translation": "World", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gibi", "translation": "Day", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bahie", "translation": "Base/basis", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Comistajda", "translation": "Feedback", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kazalis", "translation": "Casual", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Calmis", "translation": "Chill/calm", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Lu", "translation": "From/of", "types": ["Preposition"], "note": "", "examples": []},
     ]
 }
