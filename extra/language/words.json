@@ -151,6 +151,6 @@
         {"word": "Comistajda", "translation": "Feedback", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Kazalis", "translation": "Casual", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Calmis", "translation": "Chill/calm", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Lu", "translation": "From/of", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Lu", "translation": "From/of", "types": ["Preposition"], "note": "", "examples": []}
     ]
 }
