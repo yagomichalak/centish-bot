@@ -5,7 +5,9 @@ load_dotenv()
 import os
 from extra.language.centish import Centish
 from random import choice
+from typing import List
 
+guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all())
 
 @client.event
@@ -58,6 +60,11 @@ async def change_bot_status():
 async def test(ctx) -> None:
     await ctx.reply("**Command successfully tested!**")
 
+
+@client.slash_command(guild_ids=guild_ids)  # create a slash command for the supplied guilds
+async def hello(ctx):
+    """Say hello to the bot"""  # the command description can be supplied as the docstring
+    await ctx.send(f"Hello {ctx.author}!")
 
 for filename in os.listdir('./cogs/'):
     if filename.endswith('.py'):

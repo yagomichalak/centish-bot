@@ -110,7 +110,7 @@
         {"word": "Avateder", "translation": "To have", "types": ["Verb"], "note": "Basic conjugation: avate", "examples": []},
         {"word": "Purhumes", "translation": "Person", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Spakam", "translation": "Nice/Cool", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Pur", "translation": "For/to", "types": ["Prepositions"], "note": "", "examples": []},
+        {"word": "Pur", "translation": "For/to/by", "types": ["Prepositions"], "note": "", "examples": []},
         {"word": "Sout", "translation": "About", "types": ["Prepositions"], "note": "", "examples": []},
         {"word": "Basdisvider", "translation": "To discuss", "types": ["Verb"], "note": "Basic conjugation: basdisvi", "examples": []},
         {"word": "Milauder", "translation": "To improve", "types": ["Verb"], "note": "Basic conjugation: milau", "examples": []},
@@ -151,6 +151,11 @@
         {"word": "Comistajda", "translation": "Feedback", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Kazalis", "translation": "Casual", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Calmis", "translation": "Chill/calm", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Lu", "translation": "From/of", "types": ["Preposition"], "note": "", "examples": []}
+        {"word": "Lu", "translation": "From/of", "types": ["Preposition"], "note": "", "examples": []},
+        {"word": "Opuseder", "translation": "To look", "types": ["Verb"], "note": "Basic conjugation: opuse", "examples": []},
+        {"word": "Paturscieder", "translation": "To participate/partake", "types": ["Verb"], "note": "Basic conjugation: paturscie", "examples": []},
+        {"word": "Opus", "translation": "Look", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pratri", "translation": "Part", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prunundilus", "translation": "Depth", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
