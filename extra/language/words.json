@@ -156,6 +156,18 @@
         {"word": "Paturscieder", "translation": "To participate/partake", "types": ["Verb"], "note": "Basic conjugation: paturscie", "examples": []},
         {"word": "Opus", "translation": "Look", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Pratri", "translation": "Part", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Prunundilus", "translation": "Depth", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Prunundilus", "translation": "Depth", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rustra", "translation": "Street", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scida", "translation": "City", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Madonca", "translation": "House", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Virurqua", "translation": "Neighborhood", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Viniba", "translation": "Village", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Are", "translation": "Air", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Areflapla", "translation": "Airplane", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bapa", "translation": "Bread", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pizza", "translation": "Pizza", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pazza", "translation": "Pasta", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Veinie", "translation": "Wine", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Flapla", "translation": "Plane/Flat", "types": ["Adjective", "Noun"], "note": "", "examples": []}
     ]
 }
