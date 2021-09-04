@@ -168,6 +168,22 @@
         {"word": "Pizza", "translation": "Pizza", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Pazza", "translation": "Pasta", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Veinie", "translation": "Wine", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Flapla", "translation": "Plane/Flat", "types": ["Adjective", "Noun"], "note": "", "examples": []}
+        {"word": "Flapla", "translation": "Plane/Flat", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+
+        {"word": "Botan", "translation": "Subject/Matter", "types": ["Determiner", "Adverb", "Pronoun", "Noun"], "note": "", "examples": []},
+        {"word": "Prohamiluder", "translation": "To program", "types": ["Verb"], "note": "Basic conjugation: prohamilu", "examples": []},
+        {"word": "Latravajder", "translation": "To work", "types": ["Verb"], "note": "Basic conjugation: latravaj", "examples": []},
+        {"word": "Sujmito", "translation": "Subject/Matter", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prolster", "translation": "Professional", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prolemiuza", "translation": "Prolemiuza", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Latrafe", "translation": "Worker/Employee", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Latravaj", "translation": "Job/Work", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astrius", "translation": "Astro", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astriusmito", "translation": "Astronomy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astriusmitomiuza", "translation": "Astronomer", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fizia", "translation": "Physics", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fiziamiuza", "translation": "Physicist", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astriusfizia", "translation": "Astrophysics", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astriusfiziamiuza", "translation": "Astrophysicist", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
