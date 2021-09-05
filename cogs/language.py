@@ -31,7 +31,7 @@ class Language(commands.Cog, Centish):
     @commands.command(name="words")
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def _words_command(self, ctx, word_type: Optional[str] = None) -> None:
-        await self._words_command(ctx, word_type)
+        await self._words(ctx, word_type)
 
 
     async def _words(self, ctx, word_type: Optional[str] = None) -> None:
@@ -40,7 +40,8 @@ class Language(commands.Cog, Centish):
         :param word_type: The type of word to show. [Optional][Default=All] """
 
         author = ctx.author
-        await ctx.defer()
+        if type(ctx) != commands.Context:
+            await ctx.defer()
 
         accepted_word_types: List[str] = [
             'adjective', 'noun', 'adverb', 'verb', 'exclamation', 
@@ -67,7 +68,11 @@ class Language(commands.Cog, Centish):
         view = WordPaginationView(author, data)
         embed = await view.get_page()
 
-        msg = await ctx.followup.send(embed=embed, view=view)
+        if type(ctx) != commands.Context:
+            msg = await ctx.followup.send(embed=embed, view=view)
+        else:
+            msg = await ctx.send(embed=embed, view=view)
+
         await view.wait()
         await utils.disable_buttons(view)
         await msg.edit(view=view)
