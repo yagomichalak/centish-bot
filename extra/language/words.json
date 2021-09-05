@@ -183,6 +183,11 @@
         {"word": "Fizia", "translation": "Physics", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fiziamiuza", "translation": "Physicist", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Astriusfizia", "translation": "Astrophysics", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Astriusfiziamiuza", "translation": "Astrophysicist", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Astriusfiziamiuza", "translation": "Astrophysicist", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Stina", "translation": "Star", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Uvietorso", "translation": "Universa", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Platena", "translation": "Planet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ciemo", "translation": "Time", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Conutinus", "translation": "Continent", "types": ["Noun"], "note": "", "examples": []}
     ]
 }

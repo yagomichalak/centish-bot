@@ -77,9 +77,6 @@ class Language(commands.Cog, Centish):
         await utils.disable_buttons(view)
         await msg.edit(view=view)
 
-        
-
-
 
 """
 These commands will be revamped once libraries with Slash commands support are more stable to work with.
