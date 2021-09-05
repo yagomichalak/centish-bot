@@ -1,11 +1,12 @@
 import discord
+from discord.app.commands import Option
 from discord.ext import commands, tasks
 from dotenv import load_dotenv
 load_dotenv()
 import os
 from extra.language.centish import Centish
-from random import choice
-from typing import List
+from random import choice, choices
+from typing import Any, List
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all())
@@ -70,5 +71,22 @@ for filename in os.listdir('./cogs/'):
     if filename.endswith('.py'):
         client.load_extension(f"cogs.{filename[:-3]}")
 
+
+
+@client.user_command(name="pat", guild_ids=guild_ids)
+async def _pat(ctx, user: discord.Member) -> None:
+    """ Pats someone. """
+
+    await ctx.send(f"**{ctx.author.mention} patted {user.mention}!**")
+
+# Slash commands
+@client.slash_command(name="words", guild_ids=guild_ids)
+async def _words_slash(ctx,
+    word_type: Option(str, name="word_type", description="The type of word", required=False, choices=[
+        "Adverb", "Verb", "Adjective", "Noun", "Determiner",
+        "Predeterminer", "Exclamation", "Question", "Conjunction",
+        "Preposition"
+    ])) -> Any:
+    await client.get_cog('Language')._words(ctx, word_type)
 
 client.run(os.getenv('TOKEN'))

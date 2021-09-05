@@ -43,7 +43,7 @@
         {"word": "Soh", "translation": "If", "types": ["Conjunction"], "note": "", "examples": []},
         {"word": "Froup", "translation": "When", "types": ["Adverb", "Conjunction"], "note": "", "examples": []},
         {"word": "Grapas", "translation": "Thank you", "types": ["Exclamation", "Noun"], "note": "", "examples": []},
-        {"word": "Gok", "translation": "Something", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gok", "translation": "Something/Thing", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Devuzder", "translation": "(to) must/have to", "types": ["Verb"], "note": "Basic conjugation: devuz", "examples": []},
         {"word": "Protander", "translation": "(to) can/be able to", "types": ["Verb"], "note": "Basic conjugation: protan", "examples": []},
         {"word": "Moz", "translation": "More", "types": ["Determiner", "Pronoun", "Adverb"], "note": "", "examples": []},

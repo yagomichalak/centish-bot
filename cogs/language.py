@@ -28,14 +28,19 @@ class Language(commands.Cog, Centish):
             f"**There are currently `{len(words['words'])}` words in the `Centish` language, {ctx.author.mention}!**")
 
     
-    @commands.group()
+    @commands.command(name="words")
     @commands.cooldown(1, 5, commands.BucketType.user)
-    async def words(self, ctx, word_type: Optional[str] = None) -> None:
+    async def _words_command(self, ctx, word_type: Optional[str] = None) -> None:
+        await self._words_command(ctx, word_type)
+
+
+    async def _words(self, ctx, word_type: Optional[str] = None) -> None:
         """ Shows Centish words.
 
         :param word_type: The type of word to show. [Optional][Default=All] """
 
         author = ctx.author
+        await ctx.defer()
 
         accepted_word_types: List[str] = [
             'adjective', 'noun', 'adverb', 'verb', 'exclamation', 
@@ -62,13 +67,10 @@ class Language(commands.Cog, Centish):
         view = WordPaginationView(author, data)
         embed = await view.get_page()
 
-        msg = await ctx.send(embed=embed, view=view)
-
+        msg = await ctx.followup.send(embed=embed, view=view)
         await view.wait()
-
         await utils.disable_buttons(view)
         await msg.edit(view=view)
-        
 
         
 

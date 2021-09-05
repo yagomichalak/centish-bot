@@ -37,6 +37,7 @@ class WordPaginationView(discord.ui.View):
 
     @discord.ui.button(style=discord.ButtonStyle.danger, label="Stop", custom_id="stop_id")
     async def stop_page(self, button: discord.ui.button, interaction: discord.Interaction) -> None:
+        await interaction.response.defer()
         self.stop()
 
     async def get_page(self) -> discord.Embed:
