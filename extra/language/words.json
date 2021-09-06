@@ -188,6 +188,11 @@
         {"word": "Uvietorso", "translation": "Universa", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Platena", "translation": "Planet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ciemo", "translation": "Time", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Conutinus", "translation": "Continent", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Conutinus", "translation": "Continent", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Manfakeder", "translation": "To miss someone", "types": ["Verb"], "note": "Basic conjugation: manfake", "examples": []},
+        {"word": "Ikrareder", "translation": "To care", "types": ["Verb"], "note": "Basic conjugation: ikrare", "examples": []},
+        {"word": "Aprave", "translation": "Exactly", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Corsblaha", "translation": "Correct", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Torsblaha", "translation": "Wrong", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
