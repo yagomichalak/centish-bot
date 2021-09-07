@@ -18,9 +18,14 @@ class Language(commands.Cog, Centish):
 
         print('Language cog is online!')
 
-    @commands.command(aliases=['wc'])
+    @commands.command(name="word_count", aliases=['wc', "words_count", "count_words"])
     @commands.cooldown(1, 5, commands.BucketType.user)
-    async def words_count(self, ctx) -> None:
+    async def _word_count_command(self, ctx) -> None:
+        """ Tells how many words there are currently in the Centish language. """
+
+        await self._word_count(ctx)
+
+    async def _word_count(self, ctx) -> None:
         """ Tells how many words there are currently in the Centish language. """
 
         words = await self.get_words()

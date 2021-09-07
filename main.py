@@ -89,4 +89,12 @@ async def _words_slash(ctx,
     ])) -> Any:
     await client.get_cog('Language')._words(ctx, word_type)
 
+
+@client.slash_command(name="word_count", guild_ids=guild_ids)
+@commands.cooldown(1, 5, commands.BucketType.user)
+async def _word_count_slash(self, ctx) -> None:
+    """ Tells how many words there are currently in the Centish language. """
+
+    await client.get_cog('Language')._word_count(ctx)
+
 client.run(os.getenv('TOKEN'))
