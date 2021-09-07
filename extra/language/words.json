@@ -193,6 +193,16 @@
         {"word": "Ikrareder", "translation": "To care", "types": ["Verb"], "note": "Basic conjugation: ikrare", "examples": []},
         {"word": "Aprave", "translation": "Exactly", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Corsblaha", "translation": "Correct", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Torsblaha", "translation": "Wrong", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Torsblaha", "translation": "Wrong", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fakina", "translation": "Fairy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Anhulis", "translation": "Angel", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Devlis", "translation": "Devil", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hascim", "translation": "God/Goddess", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kompiutor", "translation": "Computer", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sordlia", "translation": "Smile", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sordlieder", "translation": "To smile", "types": ["Verb"], "note": "Basic conjugation: sordlie", "examples": []},
+        {"word": "Mubirder", "translation": "To hug", "types": ["Verb"], "note": "Basic conjugation: mubir", "examples": []},
+        {"word": "Bekuzeder", "translation": "To kiss", "types": ["Verb"], "note": "Basic conjugation: bekuze", "examples": []},
+        {"word": "Crilalader", "translation": "To cry", "types": ["Verb"], "note": "Basic conjugation: crilala", "examples": []}
     ]
 }
