@@ -203,6 +203,11 @@
         {"word": "Sordlieder", "translation": "To smile", "types": ["Verb"], "note": "Basic conjugation: sordlie", "examples": []},
         {"word": "Mubirder", "translation": "To hug", "types": ["Verb"], "note": "Basic conjugation: mubir", "examples": []},
         {"word": "Bekuzeder", "translation": "To kiss", "types": ["Verb"], "note": "Basic conjugation: bekuze", "examples": []},
-        {"word": "Crilalader", "translation": "To cry", "types": ["Verb"], "note": "Basic conjugation: crilala", "examples": []}
+        {"word": "Crilalader", "translation": "To cry", "types": ["Verb"], "note": "Basic conjugation: crilala", "examples": []},
+        {"word": "Lerisouder", "translation": "To remember", "types": ["Verb"], "note": "Basic conjugation: lerisou", "examples": []},
+        {"word": "Glahnouder", "translation": "To forget", "types": ["Verb"], "note": "Basic conjugation: glahnou", "examples": []},
+        {"word": "Driziqkeder", "translation": "To explain", "types": ["Verb"], "note": "Basic conjugation: driziqke", "examples": []},
+        {"word": "Ylahpreveder", "translation": "To discover", "types": ["Verb"], "note": "Basic conjugation: ylahpreve", "examples": []},
+        {"word": "Plandrander", "translation": "To plan", "types": ["Verb"], "note": "Basic conjugation: plandran", "examples": []}
     ]
 }
