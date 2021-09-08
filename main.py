@@ -5,8 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 from extra.language.centish import Centish
-from random import choice, choices
-from typing import Any, List
+from extra.menus import WordPaginationView
+from extra import utils
+from random import choice
+from typing import Any, List, Dict, Union
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all())
@@ -96,5 +98,47 @@ async def _word_count_slash(ctx) -> None:
     """ Tells how many words there are currently in the Centish language. """
 
     await client.get_cog('Language')._word_count(ctx)
+
+@client.slash_command(name="find", guild_ids=guild_ids)
+@commands.cooldown(1, 5, commands.BucketType.user)
+async def _find(ctx, search: Option(str, description="The word to search for.", required=True)) -> None:
+    """ Finds words based on a search. """
+
+    member = ctx.author
+    await ctx.defer()
+
+    def find_words(search, words) -> List[Dict[str, Any]]:
+        """ Finds the word in the strings """
+        found = []
+        for word in words['words']:
+            
+            searchable_columns = ' '.join([word['word'].lower(), word['translation'].lower()])
+            idx = searchable_columns.find(search)
+            if idx != -1:
+                found.append(word)
+
+        return found
+
+    words = await Centish.get_words()
+    found = find_words(search, words)
+
+    if not found:
+        return await ctx.followup.send(f"**Nothing found for the given search, {member.mention}!**")
+    
+    data: Dict[str, Union[str, List[Dict[str, Union[str, List[str]]]]]] = {
+        'word_type': search,
+        'words': found
+    }
+
+    # Paginates word list
+    view = WordPaginationView(member, data)
+    embed = await view.get_page()
+
+    msg = await ctx.followup.send(embed=embed, view=view)
+
+    await view.wait()
+    await utils.disable_buttons(view)
+    await msg.edit(view=view)
+
 
 client.run(os.getenv('TOKEN'))

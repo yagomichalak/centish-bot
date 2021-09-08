@@ -75,6 +75,7 @@ class WordPaginationView(discord.ui.View):
             value=f"```apache\n{formatted_words}```",
             inline=False
         )
+        embed.set_footer(text=f"{len(self.words)} result(s).")
         return embed
 
 
