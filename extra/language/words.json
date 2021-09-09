@@ -208,6 +208,18 @@
         {"word": "Glahnouder", "translation": "To forget", "types": ["Verb"], "note": "Basic conjugation: glahnou", "examples": []},
         {"word": "Driziqkeder", "translation": "To explain", "types": ["Verb"], "note": "Basic conjugation: driziqke", "examples": []},
         {"word": "Ylahpreveder", "translation": "To discover", "types": ["Verb"], "note": "Basic conjugation: ylahpreve", "examples": []},
-        {"word": "Plandrander", "translation": "To plan", "types": ["Verb"], "note": "Basic conjugation: plandran", "examples": []}
+        {"word": "Plandrander", "translation": "To plan", "types": ["Verb"], "note": "Basic conjugation: plandran", "examples": []},
+        {"word": "Selecemoder", "translation": "To celebrate", "types": ["Verb"], "note": "Basic conjugation: selecemo", "examples": []},
+        {"word": "Enreneder", "translation": "To meet", "types": ["Verb"], "note": "Basic conjugation: enrene", "examples": []},
+        {"word": "Grapaseder", "translation": "To thank", "types": ["Verb"], "note": "Basic conjugation: grapase", "examples": []},
+        {"word": "Crontulupader", "translation": "To congratulate", "types": ["Verb"], "note": "Basic conjugation: crontulupa", "examples": []},
+        {"word": "Desugueder", "translation": "To wish", "types": ["Verb"], "note": "Basic conjugation: desugue", "examples": []},
+        {"word": "Nejagibi", "translation": "Birthday/Anniversary", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fustus", "translation": "Party", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prezis", "translation": "Present/Gift", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Armelis", "translation": "Friend", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Famij", "translation": "Family", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sonapidk", "translation": "Soda", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Toboto", "translation": "Cake", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
