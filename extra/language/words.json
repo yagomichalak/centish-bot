@@ -220,6 +220,14 @@
         {"word": "Armelis", "translation": "Friend", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Famij", "translation": "Family", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sonapidk", "translation": "Soda", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Toboto", "translation": "Cake", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Toboto", "translation": "Cake", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Denameder", "translation": "To move out", "types": ["Verb"], "note": "Basic conjugation: dename", "examples": []},
+        {"word": "Loulaleder", "translation": "To rent", "types": ["Verb"], "note": "Basic conjugation: loulale", "examples": []},
+        {"word": "Cosciprader", "translation": "To buy", "types": ["Verb"], "note": "Basic conjugation: coscipra", "examples": []},
+        {"word": "Mucascieder", "translation": "To change", "types": ["Verb"], "note": "Basic conjugation: mucascie", "examples": []},
+        {"word": "Loulala", "translation": "Rent/Renting", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Novies", "translation": "New", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Vielis", "translation": "Old", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Jdiovene", "translation": "Young", "types": ["Adjective"], "note": "", "examples": []}
     ]
 }
