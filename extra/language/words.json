@@ -229,7 +229,6 @@
         {"word": "Novies", "translation": "New", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Vielis", "translation": "Old", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Jdiovene", "translation": "Young", "types": ["Adjective"], "note": "", "examples": []},
-
         {"word": "Oklahajdeder", "translation": "To obey", "types": ["Verb"], "note": "Basic conjugation: ", "examples": []},
         {"word": "Nioklahajdeder", "translation": "To disobey", "types": ["Verb"], "note": "Basic conjugation: nioklahajde", "examples": []},
         {"word": "Guifoselieder", "translation": "To follow", "types": ["Verb"], "note": "Basic conjugation: guifoselie", "examples": []},
@@ -241,6 +240,18 @@
         {"word": "Piezzuro", "translation": "Safe", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hazzurura", "translation": "Danger", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hazzura", "translation": "Dangerous", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Constujda", "translation": "Constitution", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Constujda", "translation": "Constitution", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Paktre", "translation": "Father", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Maktre", "translation": "Mother", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fiozen", "translation": "Son", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fiazen", "translation": "Daughter", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Froseer", "translation": "Brother", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Soroseer", "translation": "Sister", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cuelie", "translation": "Cousin", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Dition", "translation": "Uncle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ditita", "translation": "Aunt", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vipaktre", "translation": "Grandfather", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vimaktre", "translation": "Grandmother", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nesopotio", "translation": "Nephew/Niece", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
