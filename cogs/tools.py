@@ -116,7 +116,7 @@ class Tools(commands.Cog):
             "french": {"title": "information", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "", "message": None},
             "portuguese": {"title": "informação", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "", "message": None},
             "english": {"title": "information", "name": "english", "emoji": "🇺🇸", "color": int("ffffff", 16), "image": "https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg", "message": None},
-            "centish": {"title": "informazza", "name": "cajdkluje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "", "message": None}
+            "centish": {"title": "informazza", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "", "message": None}
         }
 
         # Posting all information channels.
