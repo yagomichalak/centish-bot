@@ -252,6 +252,12 @@
         {"word": "Ditita", "translation": "Aunt", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Vipaktre", "translation": "Grandfather", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Vimaktre", "translation": "Grandmother", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Nesopotio", "translation": "Nephew/Niece", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Nesopotio", "translation": "Nephew/Niece", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Couputrader", "translation": "To have sex/Copulate", "types": ["Verb"], "note": "Basic conjugation: couputra", "examples": []},
+        {"word": "Mabloscieder", "translation": "To cuddle", "types": ["Verb"], "note": "Basic conjugation: mabloscie", "examples": []},
+        {"word": "Dugnabader", "translation": "To bath/Take a shower", "types": ["Verb"], "note": "Basic conjugation: dugnaba", "examples": []},
+        {"word": "Dizasciafader", "translation": "To flush", "types": ["Verb"], "note": "Basic conjugation: dizasciafa", "examples": []},
+        {"word": "Merdurder", "translation": "To poop/Take a shit", "types": ["Verb"], "note": "Basic conjugation: merdur", "examples": []},
+        {"word": "Pimipider", "translation": "To pee/take a pee", "types": ["Verb"], "note": "Basic conjugation: pimipi", "examples": []}
     ]
 }
