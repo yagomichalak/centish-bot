@@ -268,6 +268,13 @@
         {"word": "Praghiduz", "translation": "Practice", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Paradoksus", "translation": "Paradox", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ghenerggia", "translation": "Energy", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Forizza", "translation": "Strength", "types": ["Noun"], "note": "", "examples": []}
-    ]
+        {"word": "Forizza", "translation": "Strength", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Qkim", "translation": "Me", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Dkim", "translation": "You", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Hkim", "translation": "Him", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Skim", "translation": "Her", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Tkim", "translation": "It", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Wkim", "translation": "Us", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Mkim", "translation": "Them", "types": ["Pronoun"], "note": "", "examples": []}
+    ]  
 }
