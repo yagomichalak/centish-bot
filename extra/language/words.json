@@ -258,6 +258,16 @@
         {"word": "Dugnabader", "translation": "To bath/Take a shower", "types": ["Verb"], "note": "Basic conjugation: dugnaba", "examples": []},
         {"word": "Dizasciafader", "translation": "To flush", "types": ["Verb"], "note": "Basic conjugation: dizasciafa", "examples": []},
         {"word": "Merdurder", "translation": "To poop/Take a shit", "types": ["Verb"], "note": "Basic conjugation: merdur", "examples": []},
-        {"word": "Pimipider", "translation": "To pee/take a pee", "types": ["Verb"], "note": "Basic conjugation: pimipi", "examples": []}
+        {"word": "Pimipider", "translation": "To pee/take a pee", "types": ["Verb"], "note": "Basic conjugation: pimipi", "examples": []},
+        {"word": "Rekratunuder", "translation": "To return", "types": ["Verb"], "note": "Basic conjugation: rekratunu", "examples": []},
+        {"word": "Siblauder", "translation": "To cycle", "types": ["Verb"], "note": "Basic conjugation: siblau", "examples": []},
+        {"word": "Riupateder", "translation": "To repeat", "types": ["Verb"], "note": "Basic conjugation: riupate", "examples": []},
+        {"word": "Praghiduzeder", "translation": "To practice", "types": ["Verb"], "note": "Basic conjugation: praghiduze", "examples": []},
+        {"word": "Siblo", "translation": "Cycle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Riupata", "translation": "Repetition", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Praghiduz", "translation": "Practice", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Paradoksus", "translation": "Paradox", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ghenerggia", "translation": "Energy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Forizza", "translation": "Strength", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
