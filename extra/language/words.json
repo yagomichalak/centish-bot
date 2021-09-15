@@ -275,6 +275,11 @@
         {"word": "Skim", "translation": "Her", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Tkim", "translation": "It", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Wkim", "translation": "Us", "types": ["Pronoun"], "note": "", "examples": []},
-        {"word": "Mkim", "translation": "Them", "types": ["Pronoun"], "note": "", "examples": []}
+        {"word": "Mkim", "translation": "Them", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Ycader", "translation": "To play", "types": ["Verb"], "note": "Basic conjugation: ycader", "examples": []},
+        {"word": "Vanitireder", "translation": "To win", "types": ["Verb"], "note": "Basic conjugation: vanitireder", "examples": []},
+        {"word": "Permuldrader", "translation": "To lose", "types": ["Verb"], "note": "Basic conjugation: permuldrader", "examples": []},
+        {"word": "Bratrakteder", "translation": "To stalemate/be a tie/draw", "types": ["Verb"], "note": "Basic conjugation: bratrakteder", "examples": []},
+        {"word": "Estepetader", "translation": "To wait", "types": ["Verb"], "note": "Basic conjugation: estepetader", "examples": []}
     ]  
 }
