@@ -150,6 +150,49 @@ class Tools(commands.Cog):
             view.add_item(discord.ui.Button(emoji=info['emoji'], label=info['name'].title(), url=info['message']))
         await ctx.send(embed=menu_embed, view=view)
 
+    @_post.command(name="language_messages", aliases=['lang_msgs', 'lang', 'language', 'languages'])
+    async def _language_messages(self, ctx) -> None:
+        """ Posts all information messages embedded neatly. """
+
+        infos: Dict[str, Dict[str, Union[str, int, discord.Color]]] = {
+            "italian": {"title": "la lingua", "name": "italiano", "emoji": "🇮🇹", "color": 1234566, "image": "", "message": None},
+            "french": {"title": "la langue", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "", "message": None},
+            "portuguese": {"title": "a língua", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "", "message": None},
+            "english": {"title": "the language", "name": "english", "emoji": "🇺🇸", "color": int("ffffff", 16), "image": "https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg", "message": None},
+            "centish": {"title": "klaje", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "", "message": None}
+        }
+
+        # Posting all information channels.
+        for language, info in infos.items():
+            with open(f"./media/texts/language/{language}.txt", encoding="utf-8") as file:
+                language_text = file.read()
+
+                info_embed = discord.Embed(
+                    title=f"{info['emoji']} __{info['title'].title()}__ {info['emoji']} ({info['name'].title()})",
+                    description=language_text,
+                    color=info['color'],
+                    timestamp=ctx.message.created_at
+                )
+
+                info_embed.set_image(url="attachment://banner.png")
+                info_embed.set_thumbnail(url=info['image'])
+                info_embed.set_footer(text=ctx.guild.name, icon_url=ctx.guild.icon.url)
+                f = discord.File("media/images/cajdklaje_banner.png", filename="banner.png")
+                msg = await ctx.send(embed=info_embed, file=f)
+                info['message'] = msg.jump_url
+
+        # Makes a menu link containing jump to message buttons
+        view = discord.ui.View()
+        menu_embed = discord.Embed(
+            title="__**Klaje Linkror**__ ☪️",
+            description="Click in any of the buttons below to get redirect to the **language** message written in your language.",
+            color=discord.Color.dark_blue()
+        )
+        view = discord.ui.View()
+        for info in infos.values():
+            view.add_item(discord.ui.Button(emoji=info['emoji'], label=info['name'].title(), url=info['message']))
+        await ctx.send(embed=menu_embed, view=view)
+
 
     @commands.group(name='edit')
     @commands.has_permissions(administrator=True)
