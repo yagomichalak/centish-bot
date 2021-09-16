@@ -48,6 +48,16 @@ async def on_command_error(ctx, error):
     print(f"ERROR: {error} | Class: {error.__class__} | Cause: {error.__cause__}")
     print('='*10)
 
+@client.event
+async def on_message(message: discord.Message) -> None:
+    """ To specific message inputs. """
+
+    if message.content.lower().startswith('nice words'):
+        await message.reply("**I knew you'd say that! 😉🌟**")
+
+
+    await client.process_commands(message)
+
 
 @tasks.loop(seconds=30)
 async def change_bot_status():

@@ -281,7 +281,6 @@
         {"word": "Permuldrader", "translation": "To lose", "types": ["Verb"], "note": "Basic conjugation: permuldra", "examples": []},
         {"word": "Bratrakteder", "translation": "To stalemate/be a tie/draw", "types": ["Verb"], "note": "Basic conjugation: bratrakte", "examples": []},
         {"word": "Estepetader", "translation": "To wait", "types": ["Verb"], "note": "Basic conjugation: estepeta", "examples": []},
-
         {"word": "Ruzmilider", "translation": "To blush", "types": ["Verb"], "note": "Basic conjugation: ruzmili", "examples": []},
         {"word": "Ruzmalader", "translation": "To flush (one's face)", "types": ["Verb"], "note": "Basic conjugation: ruzmala", "examples": []},
         {"word": "Enescader", "translation": "To hide", "types": ["Verb"], "note": "Basic conjugation: enesca", "examples": []},
