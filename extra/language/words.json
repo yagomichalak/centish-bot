@@ -300,6 +300,12 @@
         {"word": "Sauraghe", "translation": "Frog", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Piurape", "translation": "Fish", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Nusfahie", "translation": "Cloud", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Cimesu", "translation": "Sky", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Cimesu", "translation": "Sky", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vizdeder", "translation": "To live", "types": ["Verb"], "note": "Basic conjugation: vizde", "examples": []},
+        {"word": "Moggijder", "translation": "To die", "types": ["Verb"], "note": "Basic conjugation: moggij", "examples": []},
+        {"word": "Ramach", "translation": "Reason", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sapil", "translation": "Meaning", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vizda", "translation": "Life", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Moggijo", "translation": "Death", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
