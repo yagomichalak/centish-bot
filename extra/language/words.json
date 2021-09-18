@@ -306,6 +306,26 @@
         {"word": "Ramach", "translation": "Reason", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sapil", "translation": "Meaning", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Vizda", "translation": "Life", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Moggijo", "translation": "Death", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Moggijo", "translation": "Death", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Trascieterder", "translation": "To betray/cheat (on)", "types": ["Verb"], "note": "Basic conjugation: trascieter", "examples": []},
+        {"word": "Mahuder", "translation": "To hurt", "types": ["Verb"], "note": "Basic conjugation: mahu", "examples": []},
+        {"word": "Pardulomeder", "translation": "To forgive", "types": ["Verb"], "note": "Basic conjugation: pardulome", "examples": []},
+        {"word": "Semopelkoder", "translation": "To feel", "types": ["Verb"], "note": "Basic conjugation: semopelko", "examples": []},
+        {"word": "Trascietera", "translation": "Betrayal/cheating", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Doloris", "translation": "Pain/Ache", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Parduloma", "translation": "Forgiveness", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Semopelka", "translation": "Semopelka", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Relekzagsen", "translation": "Relationship", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mananita", "translation": "Morning", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miningibi", "translation": "Noon", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tarmi", "translation": "Afternoon", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tarmezu", "translation": "Evening", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nuzote", "translation": "Night", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mininnuzote", "translation": "Midnight", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sulinos", "translation": "Serious", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fusbrotre", "translation": "Strong", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Desbrotre", "translation": "Weak", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fapis", "translation": "Easy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Difelis", "translation": "Hard/Difficult", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
