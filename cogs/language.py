@@ -38,6 +38,10 @@ class Language(commands.Cog, Centish):
     @commands.command(name="words")
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def _words_command(self, ctx, word_type: Optional[str] = None) -> None:
+        """ Shows Centish words.
+
+        :param word_type: The type of word to show. [Optional][Default=All] """
+        
         await self._words(ctx, word_type)
 
 

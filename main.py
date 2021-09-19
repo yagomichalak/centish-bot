@@ -135,7 +135,11 @@ async def _words_slash(ctx,
         "Adverb", "Verb", "Adjective", "Noun", "Determiner",
         "Predeterminer", "Exclamation", "Question", "Conjunction",
         "Preposition"
-    ])) -> Any:
+    ])) -> None:
+    """ Shows Centish words.
+
+        :param word_type: The type of word to show. [Optional][Default=All] """
+
     await client.get_cog('Language')._words(ctx, word_type)
 
 
