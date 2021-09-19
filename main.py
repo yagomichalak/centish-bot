@@ -154,20 +154,8 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     member = ctx.author
     await ctx.defer()
 
-    def find_words(search, words) -> List[Dict[str, Any]]:
-        """ Finds the word in the strings """
-        found = []
-        for word in words['words']:
-            
-            searchable_columns = ' '.join([word['word'].lower(), word['translation'].lower()])
-            idx = searchable_columns.find(search)
-            if idx != -1:
-                found.append(word)
-
-        return found
-
     words = await Centish.get_words()
-    found = find_words(search, words)
+    found = await Centish.find_words(search, words['words'])
 
     if not found:
         return await ctx.followup.send(f"**Nothing found for the given search, {member.mention}!**")
@@ -186,6 +174,16 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     await view.wait()
     await utils.disable_buttons(view)
     await msg.edit(view=view)
+
+
+@client.slash_command(name="conjugate", guild_ids=guild_ids)
+async def _conjugate_command(ctx, 
+    verb: Option(str, description="The verb to conjugate.", required=True)) -> None:
+    """ Conjugates a verb in Centish.
+    :param verb: The verb to conjugate. """
+
+    await ctx.defer()
+    await client.get_cog('Language')._conjugate_callback(ctx, verb)
 
 
 client.run(os.getenv('TOKEN'))

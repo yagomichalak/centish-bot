@@ -87,6 +87,22 @@ class Language(commands.Cog, Centish):
         await msg.edit(view=view)
 
 
+    async def _conjugate_callback(self, ctx, verb: str) -> None:
+        """ Conjugates a verb in Centish.
+        :param verb: The verb to conjugate. """
+
+        answer: discord.PartialMessageable = ctx.send if isinstance(ctx, commands.Context) else ctx.followup.send
+
+
+        words = await Centish.get_words()
+        filtered_words = await Centish.filter_words(words['words'], 'verb')
+        found = await Centish.find_words(verb, filtered_words, multiple=False)
+        if found:
+            await answer("**Let's conjugate it...**")
+        else:
+            await answer("**Nothing found for the given input!**")
+
+
 """
 These commands will be revamped once libraries with Slash commands support are more stable to work with.
 """
