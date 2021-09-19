@@ -53,7 +53,7 @@ class Language(commands.Cog, Centish):
             answer = ctx.send
         else:
             await ctx.defer()
-            answer = ctx.respond
+            answer = ctx.followup.send
 
         accepted_word_types: List[str] = [
             'adjective', 'noun', 'adverb', 'verb', 'exclamation', 

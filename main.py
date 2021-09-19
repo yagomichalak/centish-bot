@@ -170,7 +170,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     found = find_words(search, words)
 
     if not found:
-        return await ctx.respond(f"**Nothing found for the given search, {member.mention}!**")
+        return await ctx.followup.send(f"**Nothing found for the given search, {member.mention}!**")
     
     data: Dict[str, Union[str, List[Dict[str, Union[str, List[str]]]]]] = {
         'word_type': search,
@@ -181,7 +181,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     view = WordPaginationView(member, data)
     embed = await view.get_page()
 
-    msg = await ctx.respond(embed=embed, view=view)
+    msg = await ctx.followup.send(embed=embed, view=view)
 
     await view.wait()
     await utils.disable_buttons(view)
