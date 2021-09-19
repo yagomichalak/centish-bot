@@ -181,6 +181,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
 
 
 @client.slash_command(name="conjugate", guild_ids=guild_ids)
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def _conjugate_command(ctx, 
     verb: Option(str, description="The verb to conjugate.", required=True)) -> None:
     """ Conjugates a verb in Centish.

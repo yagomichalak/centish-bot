@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from extra.language.centish import Centish
 from typing import Optional, List
-from extra.menus import WordPaginationView
+from extra.menus import WordPaginationView, ConjugationView
 from extra import utils
 
 class Language(commands.Cog, Centish):
@@ -41,7 +41,7 @@ class Language(commands.Cog, Centish):
         """ Shows Centish words.
 
         :param word_type: The type of word to show. [Optional][Default=All] """
-        
+
         await self._words(ctx, word_type)
 
 
@@ -95,16 +95,30 @@ class Language(commands.Cog, Centish):
         """ Conjugates a verb in Centish.
         :param verb: The verb to conjugate. """
 
-        answer: discord.PartialMessageable = ctx.send if isinstance(ctx, commands.Context) else ctx.followup.send
+        author = ctx.author
 
+        answer: discord.PartialMessageable = ctx.send if isinstance(ctx, commands.Context) else ctx.followup.send
 
         words = await Centish.get_words()
         filtered_words = await Centish.filter_words(words['words'], 'verb')
         found = await Centish.find_words(verb, filtered_words, multiple=False)
-        if found:
-            await answer("**Let's conjugate it...**")
-        else:
-            await answer("**Nothing found for the given input!**")
+        tenses = await Centish.get_tenses()
+
+
+        if not found:
+            return await answer("**Nothing found for the given input!**")
+
+        data = {
+            'words': filtered_words,
+            'verb': found,
+            'tenses': tenses
+        }
+        view = ConjugationView(member=author, data=data, timeout=60)
+        embed = await view.start()
+        msg = await answer(embed=embed, view=view)
+        await view.wait()
+        await utils.disable_buttons(view)
+        await msg.edit(view=view)
 
 
 """
