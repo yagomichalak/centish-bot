@@ -1,0 +1,10 @@
+{
+    "Infinitive": {"translation": "Infinitive", "suffix": "der"},
+    "Present": {"translation": "Present", "suffix": null},
+    "Present Continuous": {"translation": "Imperative", "suffix": "hin"},
+    "Imperfect Preterite": {"translation": "Imperative", "suffix": "vi"},
+    "Past": {"translation": "Past", "suffix": "bu"},
+    "Future": {"translation": "Future", "suffix": "fu"},
+    "Conditional Present": {"translation": "Conditional Present", "suffix": "za"},
+    "Imperative": {"translation": "Imperative", "suffix": "'mayn"}
+}

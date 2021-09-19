@@ -1,10 +1,10 @@
 import json
-from typing import Dict, List
+from typing import Dict, List, Union
 
 class Centish:
     """ Class for the Centish language. """
 
-    words_path: str = './extra/language/words.json'
+    path: str = './extra/language/'
     
     # {"word": "", "translation": "", "types": [], "note": "", "examples": []}
 
@@ -13,7 +13,7 @@ class Centish:
         """ Gets all words from the vocabulary list. """
 
         data = {}
-        with open(str(cls.words_path), 'r', encoding="utf-8") as f:
+        with open(f"{cls.path}words.json", 'r', encoding="utf-8") as f:
             data = json.loads(f.read())
         return data
 
@@ -23,3 +23,12 @@ class Centish:
         :param word_type: The type of word to filter the list to. """
 
         return [w for w in words if word_type.title() in w['types']]
+
+    @classmethod
+    async def get_tenses(cls) -> Dict[str, Union[str, None]]:
+        """ Gets all tenses present in the Centish language. """
+
+        data = {}
+        with open(f"{cls.path}tenses.json", 'r', encoding="utf-8") as f:
+            data = json.loads(f.read())
+        return data
