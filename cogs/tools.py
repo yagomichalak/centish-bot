@@ -112,11 +112,11 @@ class Tools(commands.Cog):
         """ Posts all information messages embedded neatly. """
 
         infos: Dict[str, Dict[str, Union[str, int, discord.Color]]] = {
-            "italian": {"title": "informazione", "name": "italiano", "emoji": "🇮🇹", "color": 1234566, "image": "", "message": None},
-            "french": {"title": "information", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "", "message": None},
-            "portuguese": {"title": "informação", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "", "message": None},
+            "italian": {"title": "informazione", "name": "italiano", "emoji": "🇮🇹", "color": 1234566, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png", "message": None},
+            "french": {"title": "information", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png", "message": None},
+            "portuguese": {"title": "informação", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png", "message": None},
             "english": {"title": "information", "name": "english", "emoji": "🇺🇸", "color": int("ffffff", 16), "image": "https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg", "message": None},
-            "centish": {"title": "informazza", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "", "message": None}
+            "centish": {"title": "informazza", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "https://images.emojiterra.com/twitter/v13.0/512px/262a.png", "message": None}
         }
 
         # Posting all information channels.
@@ -155,11 +155,11 @@ class Tools(commands.Cog):
         """ Posts all information messages embedded neatly. """
 
         infos: Dict[str, Dict[str, Union[str, int, discord.Color]]] = {
-            "italian": {"title": "la lingua", "name": "italiano", "emoji": "🇮🇹", "color": 1234566, "image": "", "message": None},
-            "french": {"title": "la langue", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "", "message": None},
-            "portuguese": {"title": "a língua", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "", "message": None},
+            "italian": {"title": "la lingua", "name": "italiano", "emoji": "🇮🇹", "color": 1234566, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png", "message": None},
+            "french": {"title": "la langue", "name": "français", "emoji": "🇫🇷", "color": int(discord.Color.blue()), "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png", "message": None},
+            "portuguese": {"title": "a língua", "name": "português", "emoji": "🇧🇷", "color": int(discord.Color.gold()), "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png", "message": None},
             "english": {"title": "the language", "name": "english", "emoji": "🇺🇸", "color": int("ffffff", 16), "image": "https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg", "message": None},
-            "centish": {"title": "klaje", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "", "message": None}
+            "centish": {"title": "klaje", "name": "cajdklaje", "emoji": "☪️", "color": int(discord.Color.purple()), "image": "https://images.emojiterra.com/twitter/v13.0/512px/262a.png", "message": None}
         }
 
         # Posting all information channels.
