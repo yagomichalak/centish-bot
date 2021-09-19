@@ -326,6 +326,17 @@
         {"word": "Fusbrotre", "translation": "Strong", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Desbrotre", "translation": "Weak", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fapis", "translation": "Easy", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Difelis", "translation": "Hard/Difficult", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Difelis", "translation": "Hard/Difficult", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Coztipieder", "translation": "To conjugate", "types": ["Verb"], "note": "Basic conjugation: coztipie", "examples": []},
+        {"word": "Hru", "translation": "As/like", "types": ["Adverb", "Conjunction", "Preposition"], "note": "", "examples": []},
+        {"word": "Subla", "translation": "Noun", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mrukra", "translation": "Verb", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Coztipia", "translation": "Conjugation", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Qkzelve", "translation": "Myself", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Dkzelve", "translation": "Yourself", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Hkzelve", "translation": "Himself", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Skzelve", "translation": "Herself", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Wkzelve", "translation": "Ourselves", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Mkzelve", "translation": "Themselves", "types": ["Pronoun"], "note": "", "examples": []}
     ]  
 }
