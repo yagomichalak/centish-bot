@@ -77,7 +77,7 @@ for filename in os.listdir('./cogs/'):
 async def _pat(ctx, user: discord.Member) -> None:
     """ Pats someone. """
 
-    await ctx.send(f"**{ctx.author.mention} patted {user.mention}!**")
+    await ctx.respond(f"**{ctx.author.mention} patted {user.mention}!**")
 
 @client.user_command(name="Kiss", guild_ids=guild_ids)
 async def _kiss(ctx, user: discord.Member) -> None:
@@ -126,7 +126,7 @@ async def _kiss(ctx, user: discord.Member) -> None:
     embed.set_image(url=choice(kisses))
     embed.set_footer(text=user, icon_url=user.display_avatar)
 
-    await ctx.send(embed=embed)
+    await ctx.respond(embed=embed)
 
 # Slash commands
 @client.slash_command(name="words", guild_ids=guild_ids)
@@ -170,7 +170,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     found = find_words(search, words)
 
     if not found:
-        return await ctx.followup.send(f"**Nothing found for the given search, {member.mention}!**")
+        return await ctx.respond(f"**Nothing found for the given search, {member.mention}!**")
     
     data: Dict[str, Union[str, List[Dict[str, Union[str, List[str]]]]]] = {
         'word_type': search,
@@ -181,7 +181,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     view = WordPaginationView(member, data)
     embed = await view.get_page()
 
-    msg = await ctx.followup.send(embed=embed, view=view)
+    msg = await ctx.respond(embed=embed, view=view)
 
     await view.wait()
     await utils.disable_buttons(view)

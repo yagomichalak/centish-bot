@@ -28,8 +28,10 @@ class Language(commands.Cog, Centish):
     async def _word_count(self, ctx) -> None:
         """ Tells how many words there are currently in the Centish language. """
 
+        answer: discord.PartialMessageable = ctx.send if isinstance(ctx, commands.Context) else ctx.respond
+
         words = await self.get_words()
-        await ctx.send(
+        await answer(
             f"**There are currently `{len(words['words'])}` words in the `Centish` language, {ctx.author.mention}!**")
 
     
@@ -45,8 +47,13 @@ class Language(commands.Cog, Centish):
         :param word_type: The type of word to show. [Optional][Default=All] """
 
         author = ctx.author
-        if type(ctx) != commands.Context:
+        answer: discord.PartialMessageable = None
+
+        if isinstance(ctx, commands.Context):
+            answer = ctx.send
+        else:
             await ctx.defer()
+            answer = ctx.respond
 
         accepted_word_types: List[str] = [
             'adjective', 'noun', 'adverb', 'verb', 'exclamation', 
@@ -55,7 +62,7 @@ class Language(commands.Cog, Centish):
 
         if word_type:
             if word_type.lower() not in accepted_word_types:
-                return await ctx.send(f"**Please, inform a valid `word type`, {author.mention}!**\n{', '.join(accepted_word_types)}")
+                return await answer(f"**Please, inform a valid `word type`, {author.mention}!**\n{', '.join(accepted_word_types)}")
 
         words = await self.get_words()
         words = words['words']
@@ -73,10 +80,7 @@ class Language(commands.Cog, Centish):
         view = WordPaginationView(author, data)
         embed = await view.get_page()
 
-        if type(ctx) != commands.Context:
-            msg = await ctx.followup.send(embed=embed, view=view)
-        else:
-            msg = await ctx.send(embed=embed, view=view)
+        msg = await answer(embed=embed, view=view)
 
         await view.wait()
         await utils.disable_buttons(view)
