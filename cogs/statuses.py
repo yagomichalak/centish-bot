@@ -38,7 +38,7 @@ class Statuses(commands.Cog):
                 updated_message: str = ''
 
                 if status_channel == 'Clock': # Updates the clock channel.
-                    updated_message = f"🕐 GMT+2 - {(await utils.get_time_now('Etc/GMT+2')).strftime('%H:%M')}"
+                    updated_message = f"🕐 GMT+2 - {(await utils.get_time_now('Europe/Rome')).strftime('%H:%M')}"
 
                 elif status_channel == 'Word': # Updates the word count channel.
                     updated_message = f"☪️ {len((await Centish.get_words())['words'])} words"
