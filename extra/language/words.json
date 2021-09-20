@@ -185,7 +185,7 @@
         {"word": "Astriusfizia", "translation": "Astrophysics", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Astriusfiziamiuza", "translation": "Astrophysicist", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Stina", "translation": "Star", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Uvietorso", "translation": "Universa", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Uvietorso", "translation": "Universe", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Platena", "translation": "Planet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ciemo", "translation": "Time", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Conutinus", "translation": "Continent", "types": ["Noun"], "note": "", "examples": []},
@@ -337,6 +337,12 @@
         {"word": "Hkzelve", "translation": "Himself", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Skzelve", "translation": "Herself", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Wkzelve", "translation": "Ourselves", "types": ["Pronoun"], "note": "", "examples": []},
-        {"word": "Mkzelve", "translation": "Themselves", "types": ["Pronoun"], "note": "", "examples": []}
+        {"word": "Mkzelve", "translation": "Themselves", "types": ["Pronoun"], "note": "", "examples": []},
+        {"word": "Permuskeder", "translation": "To think", "types": ["Verb"], "note": "Basic conjugation: permuske", "examples": []},
+        {"word": "Ahesgheder", "translation": "To guess", "types": ["Verb"], "note": "Basic conjugation: ahesghe", "examples": []},
+        {"word": "Niko", "translation": "Than", "types": ["Preposition", "Conjunction"], "note": "", "examples": []},
+        {"word": "Alfoma", "translation": "Then", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Mehis", "translation": "Even", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Zata", "translation": "So", "types": ["Adverb", "Conjunction"], "note": "", "examples": []}
     ]  
 }
