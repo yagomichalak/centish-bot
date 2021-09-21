@@ -343,6 +343,16 @@
         {"word": "Niko", "translation": "Than", "types": ["Preposition", "Conjunction"], "note": "", "examples": []},
         {"word": "Alfoma", "translation": "Then", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Mehis", "translation": "Even", "types": ["Adverb"], "note": "", "examples": []},
-        {"word": "Zata", "translation": "So", "types": ["Adverb", "Conjunction"], "note": "", "examples": []}
+        {"word": "Zata", "translation": "So", "types": ["Adverb", "Conjunction"], "note": "", "examples": []},
+        {"word": "Ajdkreder", "translation": "To add", "types": ["Verb"], "note": "Basic conjugation: ajdkre", "examples": []},
+        {"word": "Prahieseder", "translation": "To ask", "types": ["Verb"], "note": "Basic conjugation: prahiese", "examples": []},
+        {"word": "Ibizdarieder", "translation": "To inspire", "types": ["Verb"], "note": "Basic conjugation: ibizdarie", "examples": []},
+        {"word": "Purfakis", "translation": "Please", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Tuzibi", "translation": "Always", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Yjalu", "translation": "Other", "types": ["Adjective", "Pronoun"], "note": "", "examples": []},
+        {"word": "Efristra", "translation": "Etymology", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gokhumes", "translation": "Someone", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ibizdaria", "translation": "Inspiration", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Imporgnatis", "translation": "Important", "types": ["Adjective"], "note": "", "examples": []}
     ]  
 }
