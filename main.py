@@ -57,7 +57,7 @@ async def on_message(message: discord.Message) -> None:
     regexes: list[str] = [
         r'g{1,99}o{2,99}d{1,99} w{1,99}o{1,99}r[!_\-\w]s{0,99}',
         r'c{1,99}o{2,99}l{1,99} w{1,99}o{1,99}r[!_\-\w]s{0,99}',
-        r'n{1,99}[!_\-\w]{1,99}c[!_\-\w]{1,99} w{1,99}o{1,99}r[!_\-\w]{1,99}s{0,99}'
+        r'(n|m){1,99}[!_\-\w]{1,99}c[!_\-\w]{1,99} w{1,99}o{1,99}r[!_\-\w]{1,99}s{0,99}'
     ]
 
     content: str = message.content.lower()
