@@ -8,7 +8,8 @@ from extra.language.centish import Centish
 from extra.menus import WordPaginationView
 from extra import utils
 from random import choice
-from typing import Any, List, Dict, Union
+from typing import List, Dict, Union
+import re
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all())
@@ -52,8 +53,21 @@ async def on_command_error(ctx, error):
 async def on_message(message: discord.Message) -> None:
     """ To specific message inputs. """
 
-    if message.content.lower().startswith('nice words'):
-        await message.reply("**I knew you'd say that! 😉🌟**")
+
+    regexes: list[str] = [
+        r'go{2,99}d wo{1,99}r[!_\-\w]s{0,99}',
+        r'co{2,99}l wo{1,99}r[!_\-\w]s{0,99}',
+        r'n[!_\-\w]{1,99}c[!_\-\w]{1,99} wo{1,99}r[!_\-\w]s{0,99}'
+    ]
+
+    content: str = message.content
+    for regex in regexes:
+        found: List[str] = re.findall(regex, content)
+        if len(found) <= 0:
+            continue
+
+        if content.lower().startswith(found[0]):
+            return await message.reply("**I knew you'd say that! 😉🌟**")
 
 
     await client.process_commands(message)
