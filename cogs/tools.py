@@ -13,7 +13,7 @@ from typing import List, Dict, Union
 import os
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
-
+updates_role_id: int = int(os.getenv('UPDATES_ROLE_ID'))
 
 class Tools(commands.Cog):
     """ A category for tool commands. """
@@ -101,7 +101,7 @@ class Tools(commands.Cog):
             return await ctx.respond(
                 f"**{ctx.author.mention}, you must inform at least one of the following options: `description`, `image`, `thumbnail`**")
 
-        await ctx.channel.send("\u200b", mbed=embed, files=files)
+        await ctx.channel.send("\u200b", embed=embed, files=files)
 
     @commands.group(name='post')
     @commands.has_permissions(administrator=True)
@@ -145,7 +145,8 @@ class Tools(commands.Cog):
             timestamp=ctx.message.created_at)
         embed.set_author(name=author, icon_url=author.avatar.url, url=author.avatar.url)
 
-        await ctx.send(content=f"<t:{int(current_ts)}>", embed=embed)
+        updates_role = discord.utils.get(ctx.guild.roles, id=updates_role_id)
+        await ctx.send(content=updates_role.mention, content=f"<t:{int(current_ts)}>", embed=embed)
 
     @_post.command(name="message", aliases=["msg"])
     async def _post_message(self, ctx, title: str = None, *, text: str = None) -> None:
