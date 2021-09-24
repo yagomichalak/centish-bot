@@ -101,7 +101,7 @@ class Tools(commands.Cog):
             return await ctx.respond(
                 f"**{ctx.author.mention}, you must inform at least one of the following options: `description`, `image`, `thumbnail`**")
 
-        await ctx.channel.send(embed=embed, files=files)
+        await ctx.channel.send("\u200b", mbed=embed, files=files)
 
     @commands.group(name='post')
     @commands.has_permissions(administrator=True)
