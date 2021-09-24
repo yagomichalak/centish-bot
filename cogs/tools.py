@@ -1,13 +1,19 @@
 import discord
 from discord.ext import commands
+from discord.app.commands import slash_command, Option, OptionChoice
+
 import inspect
 import io
 import textwrap
 import traceback
 from contextlib import redirect_stdout
+
 from extra import utils
 from typing import List, Dict, Union
 import os
+
+guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
+
 
 class Tools(commands.Cog):
     """ A category for tool commands. """
@@ -40,6 +46,62 @@ class Tools(commands.Cog):
         msg = ctx.message.content.split(ctx.message.content.split(' ')[0], 1)
         embed = discord.Embed(description=msg[1], color=ctx.author.color)
         await ctx.send(embed=embed)
+
+    @slash_command(name="embed", default_permission=False, guild_ids=guild_ids)
+    @commands.has_permissions(administrator=True)
+    async def _embed(self, ctx,
+        description: Option(str, name="description", description="Description.", required=False),
+        title: Option(str, name="title", description="Title.", required=False),
+        timestamp: Option(bool, name="timestamp", description="If timestamp is gonna be shown.", required=False),
+        url: Option(str, name="url", description="URL for the title.", required=False),
+        thumbnail: Option(str, name="thumbnail", description="Thumbnail for the embed.", required=False),
+        image: Option(str, name="image", description="Display image.", required=False),
+        color: Option(str, name="color", description="The color for the embed.", required=False,
+            choices=[
+                OptionChoice(name="Blue", value="0011ff"), OptionChoice(name="Red", value="ff0000"),
+                OptionChoice(name="Green", value="00ff67"), OptionChoice(name="Yellow", value="fcff00"),
+                OptionChoice(name="Black", value="000000"), OptionChoice(name="White", value="ffffff"),
+                OptionChoice(name="Orange", value="ff7100"), OptionChoice(name="Brown", value="522400"),
+                OptionChoice(name="Purple", value="380058")])) -> None:
+        """ (ADM) Makes an improved embedded message """
+
+        await ctx.delete()
+
+        # Checks if there's a timestamp and sorts time
+        embed = discord.Embed()
+
+        # Adds optional parameters, if informed
+        if title: embed.title = title
+        if timestamp: embed.timestamp = await utils.parse_time()
+        if description: embed.description = description.replace(r'\n', '\n')
+        if color: embed.color = int(color, 16)
+        if thumbnail: embed.set_thumbnail(url=thumbnail)
+        if url: embed.url = url
+
+
+        files = []
+
+        if image and image.startswith('attachment://'):
+            filename = image.replace('attachment://', '')
+
+            embed.set_image(url=f"attachment://{filename}")
+            files.append(discord.File(f"./media/images/{filename}", filename=filename))
+
+        elif image:
+            embed.set_image(url=image)
+
+        if thumbnail and thumbnail.startswith('attachment://'):
+            filename = thumbnail.replace('attachment://', '')
+            
+            embed.set_thumbnail(url=f"attachment://{filename}")
+            files.append(discord.File(f"./media/images/{filename}", filename=filename))
+
+
+        if not description and not image and not thumbnail:
+            return await ctx.respond(
+                f"**{ctx.author.mention}, you must inform at least one of the following options: `description`, `image`, `thumbnail`**")
+
+        await ctx.channel.send(embed=embed, files=files)
 
     @commands.group(name='post')
     @commands.has_permissions(administrator=True)
