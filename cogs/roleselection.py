@@ -50,10 +50,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
                         options[index].append(discord.SelectOption(label=select_option[0], emoji=select_option[1], value=str(select_option[2])))
 
                 for key, values in options.items():
-                    select = RoleSelect(
-                        placeholder=key, custom_id=key.lower().replace(' ', '_'), 
-                        min_values=1, max_values=1, options=values
-                    )
+                    select = RoleSelect(placeholder=key, custom_id=key.lower().replace(' ', '_'), options=values)
                     view.add_item(select)
 
                 self.client.add_view(view=view, message_id=message_id)
@@ -110,9 +107,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
         for child in view.children:
             child.callback = partial(RoleSelect.callback, child)
 
-        select = RoleSelect(
-            placeholder=placeholder, custom_id=placeholder.lower().replace(' ', '_'), min_values=1, max_values=1, 
-            options=[])
+        select = RoleSelect(placeholder=placeholder, custom_id=placeholder.lower().replace(' ', '_'), options=[])
         view.add_item(select)
         while True:
 

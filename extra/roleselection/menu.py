@@ -271,19 +271,20 @@ class RoleSelect(discord.ui.Select):
 
 		member = interaction.user
 		await interaction.response.defer()
+		for value in interaction.data['values']:
 
-		try:
-			role = discord.utils.get(member.guild.roles, id=int(interaction.data['values'][0]))
-		except Exception as e:
-			print('error', e)
-			pass
-		else:
-			member_roles_ids = [r.id for r in member.roles]
-			if role and role.id not in member_roles_ids:
-				await member.add_roles(role)
-				await interaction.followup.send(f"**The `{role}` role was assigned to you!**", ephemeral=True)
+			try:
+				role = discord.utils.get(member.guild.roles, id=int(value))
+			except Exception as e:
+				print('error', e)
+				pass
 			else:
-				await member.remove_roles(role)
-				await interaction.followup.send(f"**The `{role}` role was taken away from you!**", ephemeral=True)
+				member_roles_ids = [r.id for r in member.roles]
+				if role and role.id not in member_roles_ids:
+					await member.add_roles(role)
+					await interaction.followup.send(f"**The `{role}` role was assigned to you!**", ephemeral=True)
+				else:
+					await member.remove_roles(role)
+					await interaction.followup.send(f"**The `{role}` role was taken away from you!**", ephemeral=True)
 
-			await interaction.message.edit(view=self.view)
+				await interaction.message.edit(view=self.view)
