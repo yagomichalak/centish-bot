@@ -187,7 +187,7 @@ async def _find(ctx, search: Option(str, description="The word to search for.", 
     view = WordPaginationView(member, data)
     embed = await view.get_page()
 
-    msg = await ctx.followup.send(embed=embed, view=view)
+    msg = await ctx.followup.send("\u200b", embed=embed, view=view)
 
     await view.wait()
     await utils.disable_buttons(view)

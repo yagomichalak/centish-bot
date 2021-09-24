@@ -37,12 +37,12 @@ class ManageRoleSelectionMenu(discord.ui.View):
 		initial_view = BasicUserCheckView(member, 180)
 
 		# Creates button options for selecting the drop-down in which to add new select options
-		for i in range(len(selects)):
+		for i, select in enumerate(selects):
 			initial_view.add_item(ValueButton(
-				style=discord.ButtonStyle.blurple, label=f"{i}# Select", custom_id=f"select_select_{i}_id"))
+				style=discord.ButtonStyle.blurple, label=f"{i} - {select[6]}", custom_id=f"select_select_{i}_id"))
 
 		# Prompts user the select to use
-		initial_msg = await ctx.send(f"Select a select", view=initial_view)
+		initial_msg = await ctx.send("Select a select", view=initial_view)
 		await initial_view.wait()
 		if initial_view.value is None:
 			return
@@ -75,7 +75,7 @@ class ManageRoleSelectionMenu(discord.ui.View):
 
 			view = ConfirmButton(member)
 			embed = discord.Embed(description=f"**Wanna add more options into your select menu, {member.mention}?**", color=member.color)
-			msg = await interaction.channel.send(embed=embed, view=view)
+			msg = await interaction.channel.send("\u200b", embed=embed, view=view)
 			
 			
 			await view.wait()
@@ -102,11 +102,11 @@ class ManageRoleSelectionMenu(discord.ui.View):
 		initial_view = BasicUserCheckView(member, 180)
 
 		# Makes a view with the select options
-		for i in range(len(selects)):
+		for i, select in enumerate(selects):
 			initial_view.add_item(ValueButton(
-				style=discord.ButtonStyle.blurple, label=f"{i}# Select", custom_id=f"select_select_{i}_id"))
+				style=discord.ButtonStyle.blurple, label=f"{i} - {select[6]}", custom_id=f"select_select_{i}_id"))
 
-		initial_msg = await ctx.send(f"Select a select", view=initial_view)
+		initial_msg = await ctx.send("Select a select", view=initial_view)
 		await initial_view.wait()
 		if initial_view.value is None:
 			return
@@ -146,7 +146,7 @@ class ManageRoleSelectionMenu(discord.ui.View):
 			with the <@&{chosen_option.value}> role attached to it, {member.mention}?**"""
 		)
 
-		msg = await interaction.channel.send(embed=embed, view=view)
+		msg = await interaction.channel.send("\u200b", embed=embed, view=view)
 		# Wait for the View to stop listening for input...
 		await view.wait()
 		if view.value is None:
@@ -188,11 +188,11 @@ class ManageRoleSelectionMenu(discord.ui.View):
 		selects = await self.db.get_selection_menus_by_message_id_and_placeholder(self.message.id)
 		initial_view = BasicUserCheckView(member, 180)
 
-		for i in range(len(selects)):
+		for i, select in enumerate(selects):
 			initial_view.add_item(ValueButton(
-				style=discord.ButtonStyle.blurple, label=f"{i}# Select", custom_id=f"select_select_{i}_id"))
+				style=discord.ButtonStyle.blurple, label=f"{i} - {select[6]}", custom_id=f"select_select_{i}_id"))
 
-		initial_msg = await ctx.send(f"Which select do you wanna delete?", view=initial_view)
+		initial_msg = await ctx.send("Which select do you wanna delete?", view=initial_view)
 		await initial_view.wait()
 		if initial_view.value is None:
 			return

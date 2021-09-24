@@ -94,7 +94,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
             return await ctx.send(f"**Please, inform a `message ID`, {member.mention}!**", delete_after=5)
         
         msg = await ctx.channel.fetch_message(message_id)
-        if not msg:
+        if msg is None:
             return await ctx.send(f"**Message not found, {member.mention}!**", delete_after=5)
 
         embed = discord.Embed(description="**What is the default placeholder for the select?**", color=member.color, timestamp=ctx.message.created_at)
@@ -127,7 +127,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
             await msg.edit(view=view)
             confirm_view = ConfirmButton(member)
             embed = discord.Embed(description=f"**Wanna add more options into your select menu, {member.mention}?**", color=member.color)
-            confirm_msg = await ctx.channel.send(embed=embed, view=confirm_view)
+            confirm_msg = await ctx.channel.send("\u200b", embed=embed, view=confirm_view)
             
             
             await confirm_view.wait()
@@ -163,7 +163,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
             await self.db.delete_selection_menu_by_channel_id(selection_menu[1], guild.id)
             return await ctx.send(f"**Channel and message of the Menu don't exist anymore, {member.mention}!**", delete_after=3)
 
-        if not (message := await channel.fetch_message(selection_menu[0])):
+        if (message := await channel.fetch_message(selection_menu[0])) is None:
             await self.db.delete_selection_menu_by_message_id(selection_menu[0], guild.id)
             return await ctx.send(f"**Message of the Menu doesn't exist anymore, {member.mention}!**", delete_after=3)
         
@@ -178,7 +178,7 @@ class RoleSelection(RoleSelectionDatabaseCommands):
 
         view = ManageRoleSelectionMenu(self.client, message)
 
-        msg = await ctx.send(embed=embed, view=view)
+        msg = await ctx.send("\u200b", embed=embed, view=view)
         try:
             await view.wait()
             await msg.delete()

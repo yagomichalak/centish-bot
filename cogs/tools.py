@@ -148,7 +148,7 @@ class Tools(commands.Cog):
         view = discord.ui.View()
         for info in infos.values():
             view.add_item(discord.ui.Button(emoji=info['emoji'], label=info['name'].title(), url=info['message']))
-        await ctx.send(embed=menu_embed, view=view)
+        await ctx.send("\u200b", embed=menu_embed, view=view)
 
     @_post.command(name="language_messages", aliases=['lang_msgs', 'lang', 'language', 'languages'])
     async def _language_messages(self, ctx) -> None:
@@ -191,7 +191,7 @@ class Tools(commands.Cog):
         view = discord.ui.View()
         for info in infos.values():
             view.add_item(discord.ui.Button(emoji=info['emoji'], label=info['name'].title(), url=info['message']))
-        await ctx.send(embed=menu_embed, view=view)
+        await ctx.send("\u200b", embed=menu_embed, view=view)
 
 
     @commands.group(name='edit')
@@ -230,7 +230,7 @@ class Tools(commands.Cog):
             return await ctx.send(f"**Please, inform a text message, {member.mention}!**")
 
         message = await ctx.channel.fetch_message(message_id)
-        if not message:
+        if message is None:
             return await ctx.send(f"**Invalid message, {member.mention}!**")
 
         embed = message.embeds[0]

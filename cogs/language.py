@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord.message import PartialMessage
 from extra.language.centish import Centish
 from typing import Optional, List
 from extra.menus import WordPaginationView, ConjugationView
@@ -84,7 +85,7 @@ class Language(commands.Cog, Centish):
         view = WordPaginationView(author, data)
         embed = await view.get_page()
 
-        msg = await answer(embed=embed, view=view)
+        msg = await answer("\u200b", embed=embed, view=view)
 
         await view.wait()
         await utils.disable_buttons(view)
@@ -115,7 +116,7 @@ class Language(commands.Cog, Centish):
         }
         view = ConjugationView(member=author, data=data, timeout=60)
         embed = await view.start()
-        msg = await answer(embed=embed, view=view)
+        msg = await answer("\u200b", embed=embed, view=view)
         await view.wait()
         await utils.disable_buttons(view)
         await msg.edit(view=view)
