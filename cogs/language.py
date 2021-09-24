@@ -1,10 +1,14 @@
 import discord
 from discord.ext import commands
-from discord.message import PartialMessage
+from discord.app.commands import user_command, message_command, slash_command, Option
+from typing import Optional, List, Dict, Union
+import os
+
 from extra.language.centish import Centish
-from typing import Optional, List
 from extra.menus import WordPaginationView, ConjugationView
 from extra import utils
+
+guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 
 class Language(commands.Cog, Centish):
     """ Category for commands related to the Centish language. """
@@ -26,6 +30,14 @@ class Language(commands.Cog, Centish):
 
         await self._word_count(ctx)
 
+    
+    @slash_command(name="word_count", guild_ids=guild_ids)
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def _word_count_slash(self, ctx) -> None:
+        """ Tells how many words there are currently in the Centish language. """
+
+        await self._word_count(ctx)
+
     async def _word_count(self, ctx) -> None:
         """ Tells how many words there are currently in the Centish language. """
 
@@ -42,6 +54,19 @@ class Language(commands.Cog, Centish):
         """ Shows Centish words.
 
         :param word_type: The type of word to show. [Optional][Default=All] """
+
+        await self._words(ctx, word_type)
+
+    @slash_command(name="words", guild_ids=guild_ids)
+    async def _words_slash(self, ctx,
+        word_type: Option(str, name="word_type", description="The type of word", required=False, choices=[
+            "Adverb", "Verb", "Adjective", "Noun", "Determiner",
+            "Predeterminer", "Exclamation", "Question", "Conjunction",
+            "Preposition"
+        ])) -> None:
+        """ Shows Centish words.
+
+            :param word_type: The type of word to show. [Optional][Default=All] """
 
         await self._words(ctx, word_type)
 
@@ -92,6 +117,47 @@ class Language(commands.Cog, Centish):
         await msg.edit(view=view)
 
 
+
+    @slash_command(name="find", guild_ids=guild_ids)
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def _find(self, ctx, search: Option(str, description="The word to search for.", required=True)) -> None:
+        """ Finds words based on a search. """
+
+        member = ctx.author
+        await ctx.defer()
+
+        words = await Centish.get_words()
+        found = await Centish.find_words(search, words['words'])
+
+        if not found:
+            return await ctx.followup.send(f"**Nothing found for the given search, {member.mention}!**")
+        
+        data: Dict[str, Union[str, List[Dict[str, Union[str, List[str]]]]]] = {
+            'word_type': search,
+            'words': found
+        }
+
+        # Paginates word list
+        view = WordPaginationView(member, data)
+        embed = await view.get_page()
+
+        msg = await ctx.followup.send("\u200b", embed=embed, view=view)
+
+        await view.wait()
+        await utils.disable_buttons(view)
+        await msg.edit(view=view)
+
+
+    @slash_command(name="conjugate", guild_ids=guild_ids)
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def _conjugate_command(self, ctx, 
+        verb: Option(str, description="The verb to conjugate.", required=True)) -> None:
+        """ Conjugates a verb in Centish.
+        :param verb: The verb to conjugate. """
+
+        await ctx.defer()
+        await self._conjugate_callback(ctx, verb)
+
     async def _conjugate_callback(self, ctx, verb: str) -> None:
         """ Conjugates a verb in Centish.
         :param verb: The verb to conjugate. """
@@ -120,11 +186,6 @@ class Language(commands.Cog, Centish):
         await view.wait()
         await utils.disable_buttons(view)
         await msg.edit(view=view)
-
-
-"""
-These commands will be revamped once libraries with Slash commands support are more stable to work with.
-"""
 
 def setup(client) -> None:
     client.add_cog(Language(client))
