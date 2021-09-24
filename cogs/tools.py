@@ -146,7 +146,7 @@ class Tools(commands.Cog):
         embed.set_author(name=author, icon_url=author.avatar.url, url=author.avatar.url)
 
         updates_role = discord.utils.get(ctx.guild.roles, id=updates_role_id)
-        await ctx.send(content=updates_role.mention, content=f"<t:{int(current_ts)}>", embed=embed)
+        await ctx.send(content=f"{updates_role.mention}, <t:{int(current_ts)}>", embed=embed)
 
     @_post.command(name="message", aliases=["msg"])
     async def _post_message(self, ctx, title: str = None, *, text: str = None) -> None:
