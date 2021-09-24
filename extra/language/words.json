@@ -398,6 +398,14 @@
         {"word": "Inabata", "translation": "Intention", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Nede", "translation": "Without", "types": ["Preposition", "Conjunction"], "note": "", "examples": []},
         {"word": "Maspin", "translation": "Major", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mispin", "translation": "Minor", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Mispin", "translation": "Minor", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Somberder", "translation": "To sound", "types": ["Verb"], "note": "Basic conjugation: somber", "examples": []},
+        {"word": "Vetifreder", "translation": "To become", "types": ["Verb"], "note": "Basic conjugation: vetifre", "examples": []},
+        {"word": "Noscitader", "translation": "To notice", "types": ["Verb"], "note": "Basic conjugation: noscita", "examples": []},
+        {"word": "Eksvaiteder", "translation": "To exist/there is/there are", "types": ["Verb"], "note": "Basic conjugation: eksvaite", "examples": []},
+        {"word": "Mozai", "translation": "Most", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Midras", "translation": "While", "types": ["Conjunction", "Adverb"], "note": "", "examples": []},
+        {"word": "Sombera", "translation": "Sound", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mihismila", "translation": "Same", "types": ["Adjective", "Pronoun", "Adverb"], "note": "", "examples": []}
     ]  
 }
