@@ -1,4 +1,6 @@
-git+https://github.com/Rapptz/discord.py
+git+https://github.com/Pycord-Development/pycord@feature/slash
 python-dotenv==0.0.19
 discord==1.0.1
 pytz==2021.1
+aiomysql==0.0.21
+emoji==1.5.0
