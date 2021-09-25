@@ -63,7 +63,6 @@ async def on_message_bot_ping(message):
         else:
             await message.reply(f"**{author.mention}, my prefix is `{client.command_prefix}`**")
 
-    await client.process_commands(message)
 
 @client.listen(name="on_message")
 async def on_message_nice_words(message: discord.Message) -> None:
@@ -84,10 +83,6 @@ async def on_message_nice_words(message: discord.Message) -> None:
 
         if content.lower().startswith(found[0]):
             return await message.reply("**I knew you'd say that! 😉🌟**")
-
-
-    await client.process_commands(message)
-
 
 @client.command()
 async def help(ctx, *, cmd: str =  None):
