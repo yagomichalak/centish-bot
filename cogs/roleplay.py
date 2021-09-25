@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from discord.app.commands import Option, user_command, message_command, slash_command
 
+from extra import utils
 from typing import List
 import os
 from random import choice
@@ -28,7 +29,20 @@ class RolePlay(commands.Cog):
         await ctx.respond(f"**{ctx.author.mention} patted {user.mention}!**")
 
     @user_command(name="Kiss", guild_ids=guild_ids)
-    async def _kiss(self, ctx, user: discord.Member) -> None:
+    async def _kiss_user_command(self, ctx, user: discord.Member) -> None:
+        """ Kisses someone.
+        :param member: The member to kiss. """
+
+        await self._kiss_callback(ctx, user)
+
+    @slash_command(name="kiss", guild_ids=guild_ids)
+    async def _kiss_slash_command(self, ctx, user: Option(discord.Member, name="user", description="The member to kiss.", required=True)) -> None:
+        """ Kisses someone.
+        :param member: The member to kiss. """
+
+        await self._kiss_callback(ctx, user)
+
+    async def _kiss_callback(self, ctx, user: discord.Member) -> None:
         """ Kisses someone. """
 
         author = ctx.author
@@ -90,7 +104,7 @@ class RolePlay(commands.Cog):
 
         embed = discord.Embed(
             title="__Seduce__",
-            description=f"😏 **{author.mention} seduced {user.mention}!** 😏",
+            description=f"😶‍🌫️🥵 **{author.mention} seduced {user.mention}!** 😶‍🌫️🥵",
             color=discord.Color.dark_gold()
         )
 
@@ -136,6 +150,53 @@ class RolePlay(commands.Cog):
         embed.set_author(name=author, icon_url=author.display_avatar)
         embed.set_image(url=choice(seduces))
         embed.set_footer(text=user, icon_url=user.display_avatar)
+
+        await ctx.respond(embed=embed)
+
+    @slash_command(name="slap", guild_ids=guild_ids)
+    async def _slap(self, ctx, user: Option(discord.Member, name="user", description="The member to slap.", required=True)) -> None:
+        """ Slaps someone.
+        :param user: The member to slep. """
+
+        author = ctx.author
+        if user == author:
+            return await ctx.respond(f"**You cannot seduce yourself, lol!**", ephemeral=True)
+
+        if user.bot:
+            return await ctx.respond("**You cannot seduce a bot!**", ephemeral=True)
+
+        slaps: List[str] = [
+            'https://c.tenor.com/-nt9Dj8Ei14AAAAd/tap-that.gif',
+            'https://c.tenor.com/p4nJMjBtwIMAAAAC/cats-funny.gif',
+            'https://c.tenor.com/wKKCNA6Ni-MAAAAC/cheh-t1-t1lose.gif',
+            'https://c.tenor.com/bOERuBKmDSoAAAAC/michael-jackson-sexy.gif',
+            'https://c.tenor.com/PHTpoMvPk_EAAAAC/ass-slap-slap.gif',
+            'https://c.tenor.com/WgHlS-sXVHIAAAAC/tinkerbell-spank.gif',
+            'https://c.tenor.com/9DZ7tx1JATkAAAAC/happy-bunny-pig.gif',
+            'https://c.tenor.com/eS3xAaYHDeMAAAAC/ass-ass-slap.gif',
+            'https://c.tenor.com/CyczLT_QsPIAAAAC/hobo-bros-sexy.gif',
+            'https://c.tenor.com/13Tuskb4T8EAAAAC/elizabeth-olsen-aubrey-plaza.gif',
+            'https://c.tenor.com/YIWoKVWn3FUAAAAC/happy-spank.gif',
+            'https://c.tenor.com/bHE5Txlp5-8AAAAC/slap-butts-anime.gif',
+            'https://c.tenor.com/2o9uTHxpw3UAAAAC/punishment-beat-ass.gif',
+            'https://c.tenor.com/Zl2DQ6lc2-gAAAAC/slap-butt-naughty.gif',
+            'https://c.tenor.com/oUwdLFkrzaMAAAAd/walrus-slaps.gif',
+            'https://c.tenor.com/H3lLTaQZRuwAAAAC/butt-slap-adventure-time.gif'
+
+        ]
+
+        current_time = await utils.get_time_now('Europe/Rome')
+        embed = discord.Embed(
+            title="__Slap__",
+            description=f"😳😏 **{author.mention} slapped {user.mention}!** 😳😏",
+            color=author.color,
+            timestamp=current_time
+        )
+
+        embed.set_author(name=author.display_name, url=author.display_avatar, icon_url=author.display_avatar)
+        embed.set_thumbnail(url=user.display_avatar)
+        embed.set_image(url=choice(slaps))
+        embed.set_footer(text=ctx.guild.name, icon_url=ctx.guild.icon.url)
 
         await ctx.respond(embed=embed)
 
