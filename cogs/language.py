@@ -1,5 +1,5 @@
 import discord
-from discord.ext import commands
+from discord.ext import commands, tasks
 from discord.app.commands import user_command, message_command, slash_command, Option
 from typing import Optional, List, Dict, Union
 import os
@@ -7,6 +7,7 @@ import os
 from extra.language.centish import Centish
 from extra.menus import WordPaginationView, ConjugationView
 from extra import utils
+from random import choice
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 
@@ -21,7 +22,19 @@ class Language(commands.Cog, Centish):
     async def on_ready(self) -> None:
         """ Tells when the cog is ready to go. """
 
+        self.change_bot_status.start()
+
         print('Language cog is online!')
+
+    @tasks.loop(seconds=30)
+    async def change_bot_status(self):
+
+        words = await Centish.get_words()
+        random_word = choice(words['words'])
+        await self.client.change_presence(
+            activity=discord.Activity(
+                type=discord.ActivityType.watching, 
+                name=f"{random_word['word']} | {random_word['translation']}"))
 
     @commands.command(name="word_count", aliases=['wc', "words_count", "count_words"])
     @commands.cooldown(1, 5, commands.BucketType.user)

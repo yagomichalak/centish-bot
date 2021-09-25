@@ -1,23 +1,23 @@
 import discord
 from discord.utils import escape_mentions
-from discord.ext import commands, tasks
+from discord.ext import commands
 
 import os
 from dotenv import load_dotenv
 load_dotenv()
-from random import choice
-from typing import List
-from extra.language.centish import Centish
+
+from re import match
+from typing import List, Union
 import re
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all(), help_command=None)
+cent_id: int = int(os.getenv('CENT_ID'))
 
 @client.event
 async def on_ready() -> None:
     """ Tells when the bot is online. """
 
-    change_bot_status.start()
     print('Bot is ready!')
 
 @client.event
@@ -48,8 +48,25 @@ async def on_command_error(ctx, error):
     print(f"ERROR: {error} | Class: {error.__class__} | Cause: {error.__cause__}")
     print('='*10)
 
-@client.event
-async def on_message(message: discord.Message) -> None:
+@client.listen(name="on_message")
+async def on_message_bot_ping(message):
+
+    author: Union[discord.Member, discord.User] = message.author
+
+    if author.bot:
+        return
+
+    if match(f"<@!?{client.user.id}>", message.content) is not None:
+
+        if author.id != cent_id:
+            await message.reply(f"**How can I help you my queen, {author.mention}?** 👑")
+        else:
+            await message.reply(f"**{author.mention}, my prefix is `{client.command_prefix}`**")
+
+    await client.process_commands(message)
+
+@client.listen(name="on_message")
+async def on_message_nice_words(message: discord.Message) -> None:
     """ To specific message inputs. """
 
 
@@ -70,17 +87,6 @@ async def on_message(message: discord.Message) -> None:
 
 
     await client.process_commands(message)
-
-
-@tasks.loop(seconds=30)
-async def change_bot_status():
-
-    words = await Centish.get_words()
-    random_word = choice(words['words'])
-    await client.change_presence(
-        activity=discord.Activity(
-            type=discord.ActivityType.watching, 
-            name=f"{random_word['word']} | {random_word['translation']}"))
 
 
 @client.command()
