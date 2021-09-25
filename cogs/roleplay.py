@@ -88,7 +88,7 @@ class RolePlay(commands.Cog):
         embed.set_image(url=choice(kisses))
         embed.set_footer(text=user, icon_url=user.display_avatar)
 
-        await ctx.respond(embed=embed)
+        await ctx.respond(content=user.mention, embed=embed)
 
     @slash_command(name="seduce", guild_ids=guild_ids)
     async def _seduce(self, ctx, user: Option(discord.Member, name="user", description="The member to seduce.", required=True)) -> None:
@@ -151,7 +151,7 @@ class RolePlay(commands.Cog):
         embed.set_image(url=choice(seduces))
         embed.set_footer(text=user, icon_url=user.display_avatar)
 
-        await ctx.respond(embed=embed)
+        await ctx.respond(content=user.mention, embed=embed)
 
     @slash_command(name="slap", guild_ids=guild_ids)
     async def _slap(self, ctx, user: Option(discord.Member, name="user", description="The member to slap.", required=True)) -> None:
@@ -198,7 +198,7 @@ class RolePlay(commands.Cog):
         embed.set_image(url=choice(slaps))
         embed.set_footer(text=ctx.guild.name, icon_url=ctx.guild.icon.url)
 
-        await ctx.respond(embed=embed)
+        await ctx.respond(content=user.mention, embed=embed)
 
 
 def setup(client: commands.Bot) -> None:
