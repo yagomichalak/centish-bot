@@ -147,6 +147,27 @@ class Tools(commands.Cog):
 
         updates_role = discord.utils.get(ctx.guild.roles, id=updates_role_id)
         await ctx.send(content=f"{updates_role.mention}, <t:{int(current_ts)}>", embed=embed)
+        
+    @_post.command(name="bonus_update", aliases=['bonusupdate', 'bu', 'bonus'])
+    async def _post_bonus_update(self, ctx, *, text: str = None) -> None:
+        """ Posts a bonus update type of message into the channel.
+        :param text: The text to post.
+        
+        PS: The text will be wrapped up in triple tick tags. """
+
+        current_ts = await utils.get_timestamp()
+
+        author = ctx.author
+
+        embed = discord.Embed(
+            title="Bonus Update__:",
+            description=f"```apache\n{text}```",
+            color=1234566,
+            timestamp=ctx.message.created_at)
+        embed.set_author(name=author, icon_url=author.avatar.url, url=author.avatar.url)
+
+        updates_role = discord.utils.get(ctx.guild.roles, id=updates_role_id)
+        await ctx.send(content=f"{updates_role.mention}, <t:{int(current_ts)}>", embed=embed)
 
     @_post.command(name="message", aliases=["msg"])
     async def _post_message(self, ctx, title: str = None, *, text: str = None) -> None:
