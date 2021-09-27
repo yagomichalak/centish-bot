@@ -118,7 +118,7 @@
         {"word": "Atuazia", "translation": "Update", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ambinke", "translation": "Environment", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Intrispis", "translation": "Interesting", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mujbo", "translation": "Very", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Mujbo", "translation": "Very/Much/a lot", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Teche", "translation": "Too/Also", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Tun", "translation": "This", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
         {"word": "Matun", "translation": "That", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
@@ -446,6 +446,27 @@
         {"word": "Pkfk", "translation": "Prefix", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Tosciata", "translation": "Touch", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Grastra", "translation": "Grammar", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Apima", "translation": "Only/just", "types": ["Adverb"], "note": "", "examples": []}
+        {"word": "Apima", "translation": "Only/just", "types": ["Adverb"], "note": "", "examples": []},
+
+        {"word": "Taletader", "translation": "To delete/remove", "types": ["Verb"], "note": "Basic conjugation: taleta", "examples": []},
+        {"word": "Rescronfrader", "translation": "To regard/consider", "types": ["Verb"], "note": "Basic conjugation: rescronfra", "examples": []},
+        {"word": "Panconder", "translation": "To concern/worry", "types": ["Verb"], "note": "Basic conjugation: pancon", "examples": []},
+        {"word": "Mafahalder", "translation": "To lack", "types": ["Verb"], "note": "Basic conjugation: mafahal", "examples": []},
+        {"word": "Debapieder", "translation": "To rely/depend", "types": ["Verb"], "note": "Basic conjugation: debapie", "examples": []},
+        {"word": "Atriscieder", "translation": "To attach", "types": ["Verb"], "note": "Basic conjugation: atriscie", "examples": []},
+        {"word": "Bahierder", "translation": "To base", "types": ["Verb"], "note": "Basic conjugation: bahier", "examples": []},
+        {"word": "Esciazder", "translation": "To choose", "types": ["Verb"], "note": "Basic conjugation: esciaz", "examples": []},
+        {"word": "Repreksaris", "translation": "Respective", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Vajla", "translation": "Vast", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Covana", "translation": "Common", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Riu", "translation": "Real/actual", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Deriubo", "translation": "Few/bit/not much", "types": ["Determiner", "Pronoun", "Noun"], "note": "", "examples": []},
+        {"word": "Ghamana", "translation": "Range", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nuplo", "translation": "North", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Suplo", "translation": "South", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Luplo", "translation": "East", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vuplo", "translation": "West", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prajdiagha", "translation": "Pleasure", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Esciaza", "translation": "Choice", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
