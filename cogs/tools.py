@@ -147,7 +147,7 @@ class Tools(commands.Cog):
 
         updates_role = discord.utils.get(ctx.guild.roles, id=updates_role_id)
         await ctx.send(content=f"{updates_role.mention}, <t:{int(current_ts)}>", embed=embed)
-        
+
     @_post.command(name="bonus_update", aliases=['bonusupdate', 'bu', 'bonus'])
     async def _post_bonus_update(self, ctx, *, text: str = None) -> None:
         """ Posts a bonus update type of message into the channel.
@@ -160,7 +160,7 @@ class Tools(commands.Cog):
         author = ctx.author
 
         embed = discord.Embed(
-            title="Bonus Update__:",
+            title="__Bonus Update__:",
             description=f"```apache\n{text}```",
             color=1234566,
             timestamp=ctx.message.created_at)
