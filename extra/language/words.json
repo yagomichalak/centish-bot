@@ -489,6 +489,21 @@
         {"word": "Nuplo Amrika", "translation": "North America", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Suplo Amrika", "translation": "Sotuh America", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Antajdrika", "translation": "Antarctica", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Arvatrika", "translation": "Australia", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Arvatrika", "translation": "Australia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Esporatis", "translation": "Hopeful", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Espora", "translation": "Hope", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sofora", "translation": "Luck/fortunate", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Semina", "translation": "Week", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Memina", "translation": "Month", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Yna", "translation": "Year", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Deehyna", "translation": "Decade", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Unimayna", "translation": "Centry", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sohulgibi", "translation": "Sunday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Liuhagibi", "translation": "Monday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Maflaigibi", "translation": "Tuesday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miriagibi", "translation": "Wednesday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Juvengibi", "translation": "Thursday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Viunagibi", "translation": "Friday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sautragibi", "translation": "Saturday", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
