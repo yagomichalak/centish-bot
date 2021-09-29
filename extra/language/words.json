@@ -504,6 +504,21 @@
         {"word": "Miriagibi", "translation": "Wednesday", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Juvengibi", "translation": "Thursday", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Viunagibi", "translation": "Friday", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Sautragibi", "translation": "Saturday", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Sautragibi", "translation": "Saturday", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miscidoieder", "translation": "To mix/blend", "types": ["Verb"], "note": "Basic conjugation: miscidoie", "examples": []},
+        {"word": "Kurieder", "translation": "To color", "types": ["Verb"], "note": "Basic conjugation: kurie", "examples": []},
+        {"word": "Miscidoia", "translation": "Mixture/blend", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kuria", "translation": "Color", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kuriatis", "translation": "Colorful", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Burazzu", "translation": "Blue", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Virmis", "translation": "Red", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Jdailelo", "translation": "Yellow", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Oronaima", "translation": "Orange", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Viteriu", "translation": "Green", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Roscila", "translation": "Purple", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Mabra", "translation": "Brown", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Grijda", "translation": "Gray", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Biran", "translation": "White", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Nurus", "translation": "Black", "types": ["Adjective", "Noun"], "note": "", "examples": []}
     ]  
 }
