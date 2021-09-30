@@ -519,6 +519,18 @@
         {"word": "Mabra", "translation": "Brown", "types": ["Adjective", "Noun"], "note": "", "examples": []},
         {"word": "Grijda", "translation": "Gray", "types": ["Adjective", "Noun"], "note": "", "examples": []},
         {"word": "Biran", "translation": "White", "types": ["Adjective", "Noun"], "note": "", "examples": []},
-        {"word": "Nurus", "translation": "Black", "types": ["Adjective", "Noun"], "note": "", "examples": []}
+        {"word": "Nurus", "translation": "Black", "types": ["Adjective", "Noun"], "note": "", "examples": []},
+        {"word": "Feregibider", "translation": "To schedule", "types": ["Verb"], "note": "Basic conjugation: feregibi", "examples": []},
+        {"word": "Izzafeimerder", "translation": "To install", "types": ["Verb"], "note": "Basic conjugation: izzafeimer", "examples": []},
+        {"word": "Caripriprader", "translation": "To download", "types": ["Verb"], "note": "Basic conjugation: caripripra", "examples": []},
+        {"word": "Zouseder", "translation": "To service/serve", "types": ["Verb"], "note": "Basic conjugation: zouse", "examples": []},
+        {"word": "Feregibia", "translation": "Schedule", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Izzafeimera", "translation": "Installation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Caripriprala", "translation": "Download", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Klamiehi", "translation": "Calendar", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Daria", "translation": "Date", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Dermazza", "translation": "Data", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Revaj", "translation": "Network", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Zousa", "translation": "Service", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
