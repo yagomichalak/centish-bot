@@ -531,6 +531,16 @@
         {"word": "Daria", "translation": "Date", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Dermazza", "translation": "Data", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Revaj", "translation": "Network", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Zousa", "translation": "Service", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Zousa", "translation": "Service", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Finineder", "translation": "To finish/terminate/end/complete", "types": ["Verb"], "note": "Basic conjugation: finine", "examples": []},
+        {"word": "Pahayder", "translation": "To leave/depart", "types": ["Verb"], "note": "Basic conjugation: pahay", "examples": []},
+        {"word": "Riklezeder", "translation": "To reflect", "types": ["Verb"], "note": "Basic conjugation: rikleze", "examples": []},
+        {"word": "Rikleza", "translation": "Reflection", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pascionera", "translation": "Passion", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Raspen", "translation": "Fast", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Linen", "translation": "Slow", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Normis", "translation": "Normal", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Pascionemis", "translation": "Passionate", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Intrispide", "translation": "Interested", "types": ["Adjective"], "note": "", "examples": []}
     ]  
 }
