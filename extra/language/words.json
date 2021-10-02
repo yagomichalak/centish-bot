@@ -541,6 +541,20 @@
         {"word": "Linen", "translation": "Slow", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Normis", "translation": "Normal", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Pascionemis", "translation": "Passionate", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Intrispide", "translation": "Interested", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Intrispide", "translation": "Interested", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Meklieder", "translation": "To put/place", "types": ["Verb"], "note": "Basic conjugation: meklie", "examples": []},
+        {"word": "Mucaklieder", "translation": "To replace", "types": ["Verb"], "note": "Basic conjugation: mucaklie", "examples": []},
+        {"word": "Skrimider", "translation": "To write", "types": ["Verb"], "note": "Basic conjugation: skrimi", "examples": []},
+        {"word": "Drimider", "translation": "To type", "types": ["Verb"], "note": "Basic conjugation: drimi", "examples": []},
+        {"word": "Uskrimider", "translation": "To overwrite", "types": ["Verb"], "note": "Basic conjugation: uskrimi", "examples": []},
+        {"word": "Femaskrimider", "translation": "To scribble/scrabble", "types": ["Verb"], "note": "Basic conjugation: femaskrimi", "examples": []},
+        {"word": "Lurader", "translation": "To read", "types": ["Verb"], "note": "Basic conjugation: Lura", "examples": []},
+        {"word": "Broli", "translation": "Book", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ardegha", "translation": "Article", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pahina", "translation": "Page", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Grascidetes", "translation": "Paragraph", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Akfiscidetes", "translation": "Essay", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scidetes", "translation": "Text", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Poscidetes", "translation": "Message", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
