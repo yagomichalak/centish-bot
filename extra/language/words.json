@@ -555,6 +555,16 @@
         {"word": "Grascidetes", "translation": "Paragraph", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Akfiscidetes", "translation": "Essay", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Scidetes", "translation": "Text", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Poscidetes", "translation": "Message", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Poscidetes", "translation": "Message", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hapiader", "translation": "To pay", "types": ["Verb"], "note": "hapia", "examples": []},
+        {"word": "Prekshareder", "translation": "To lend", "types": ["Verb"], "note": "prekshare", "examples": []},
+        {"word": "Ampralider", "translation": "To borrow", "types": ["Verb"], "note": "amprali", "examples": []},
+        {"word": "Rejdeder", "translation": "To rest", "types": ["Verb"], "note": "rejde", "examples": []},
+        {"word": "Ekzaiseder", "translation": "To exercise", "types": ["Verb"], "note": "ekzaise", "examples": []},
+        {"word": "Ekzaisa", "translation": "Exercise", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Freima", "translation": "Money", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cardereire", "translation": "Wallet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rejda", "translation": "Rest", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Munai", "translation": "Coin", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
