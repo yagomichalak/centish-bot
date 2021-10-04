@@ -566,7 +566,6 @@
         {"word": "Cardereire", "translation": "Wallet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Rejda", "translation": "Rest", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Munai", "translation": "Coin", "types": ["Noun"], "note": "", "examples": []},
-
         {"word": "Zirgheder", "translation": "To circle", "types": ["Verb"], "note": "Basic conjugation: zirghe", "examples": []},
         {"word": "Elivider", "translation": "To raise", "types": ["Verb"], "note": "Basic conjugation: elivi", "examples": []},
         {"word": "Zirga", "translation": "Circle", "types": ["Noun"], "note": "", "examples": []},

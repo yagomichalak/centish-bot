@@ -9,6 +9,7 @@ load_dotenv()
 from re import match
 from typing import List, Union
 import re
+from random import choice
 
 guild_ids: List[int] = [int(os.getenv('SERVER_ID'))]
 client = commands.Bot(command_prefix='c!', intents=discord.Intents.all(), help_command=None)
@@ -75,6 +76,17 @@ async def on_message_nice_words(message: discord.Message) -> None:
         r'(n|m){1,99}(0|o){0,99}[!_\-\w]{1,99}c[!_\-\w]{1,99} w{1,99}(0|o){0,99}r[!_\-\w]{0,99}s{0,99}'
     ]
 
+    replies: list[str] = [
+        "**I knew you'd say that! 😉🌟**",
+        "**Thanks! 😁**",
+        "**Don't mention it!**",
+        "**I appreciate it! 🙂**",
+        "Yes.",
+        "Indeed.",
+        "Precisely so! 🧐",
+        "👀"
+    ]
+
     content: str = message.content.lower()
     for regex in regexes:
         found: List[str] = re.findall(regex, content)
@@ -82,7 +94,7 @@ async def on_message_nice_words(message: discord.Message) -> None:
             continue
 
         if content.lower().startswith(found[0]):
-            return await message.reply("**I knew you'd say that! 😉🌟**")
+            return await message.reply(choice(replies))
 
 @client.command()
 async def help(ctx, *, cmd: str =  None):
