@@ -565,6 +565,13 @@
         {"word": "Freima", "translation": "Money", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Cardereire", "translation": "Wallet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Rejda", "translation": "Rest", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Munai", "translation": "Coin", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Munai", "translation": "Coin", "types": ["Noun"], "note": "", "examples": []},
+
+        {"word": "Zirgheder", "translation": "To circle", "types": ["Verb"], "note": "Basic conjugation: zirghe", "examples": []},
+        {"word": "Elivider", "translation": "To raise", "types": ["Verb"], "note": "Basic conjugation: elivi", "examples": []},
+        {"word": "Zirga", "translation": "Circle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Draigu", "translation": "Side", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hokslo", "translation": "Angle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Porbeba", "translation": "Potency", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
