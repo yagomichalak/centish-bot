@@ -81,9 +81,9 @@ async def on_message_nice_words(message: discord.Message) -> None:
         "**Thanks! 😁**",
         "**Don't mention it!**",
         "**I appreciate it! 🙂**",
-        "Yes.",
-        "Indeed.",
-        "Precisely so! 🧐",
+        "**Yes.**",
+        "**Indeed.**",
+        "**Precisely so! 🧐**",
         "👀"
     ]
 

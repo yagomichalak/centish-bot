@@ -571,6 +571,17 @@
         {"word": "Zirga", "translation": "Circle", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Draigu", "translation": "Side", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hokslo", "translation": "Angle", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Porbeba", "translation": "Potency", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Porbeba", "translation": "Potency", "types": ["Noun"], "note": "", "examples": []},
+
+        {"word": "Deboidemeder", "translation": "To deposit", "types": ["Verb"], "note": "Basic conjugation: deboideme", "examples": []},
+        {"word": "Certafeder", "translation": "To certify", "types": ["Verb"], "note": "Basic conjugation: certafe", "examples": []},
+        {"word": "Okzedeignerder", "translation": "To withdraw", "types": ["Verb"], "note": "Basic conjugation: okzedeigner", "examples": []},
+        {"word": "Ramiu", "translation": "Radio", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Lilmo", "translation": "Disc", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vinil", "translation": "Vinyl", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Certafa", "translation": "Certificate/certification", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "CD", "translation": "CD", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Deboidema", "translation": "Deposit", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Okzedeignera", "translation": "Withdrawal", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
