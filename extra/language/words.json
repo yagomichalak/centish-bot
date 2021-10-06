@@ -572,7 +572,6 @@
         {"word": "Draigu", "translation": "Side", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hokslo", "translation": "Angle", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Porbeba", "translation": "Potency", "types": ["Noun"], "note": "", "examples": []},
-
         {"word": "Deboidemeder", "translation": "To deposit", "types": ["Verb"], "note": "Basic conjugation: deboideme", "examples": []},
         {"word": "Certafeder", "translation": "To certify", "types": ["Verb"], "note": "Basic conjugation: certafe", "examples": []},
         {"word": "Okzedeignerder", "translation": "To withdraw", "types": ["Verb"], "note": "Basic conjugation: okzedeigner", "examples": []},
@@ -582,6 +581,20 @@
         {"word": "Certafa", "translation": "Certificate/certification", "types": ["Noun"], "note": "", "examples": []},
         {"word": "CD", "translation": "CD", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Deboidema", "translation": "Deposit", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Okzedeignera", "translation": "Withdrawal", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Okzedeignera", "translation": "Withdrawal", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tesciakreder", "translation": "To sharpen", "types": ["Verb"], "note": "Basic conjugation: tesciakre", "examples": []},
+        {"word": "Oblaiveder", "translation": "To erase", "types": ["Verb"], "note": "Basic conjugation: oblaive", "examples": []},
+        {"word": "Mezuheder", "translation": "To measure", "types": ["Verb"], "note": "Basic conjugation: mezuhe", "examples": []},
+        {"word": "Hilurimieder", "translation": "To highlight", "types": ["Verb"], "note": "Basic conjugation: hilurimie", "examples": []},
+        {"word": "Noirider", "translation": "To note", "types": ["Verb"], "note": "Basic conjugation: noiri", "examples": []},
+        {"word": "Crilia", "translation": "Pen", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Esdibro", "translation": "Pencil", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Oblaiva", "translation": "Eraser", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mezusilaha", "translation": "Ruler", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Invrokro", "translation": "Pencil case", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tesciakra", "translation": "Pencil sharpener", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hilurimia", "translation": "Highlighter", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Noiribroli", "translation": "Notebook", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mezuha", "translation": "Measure", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
