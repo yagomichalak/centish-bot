@@ -447,7 +447,6 @@
         {"word": "Tosciata", "translation": "Touch", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Grastra", "translation": "Grammar", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Apima", "translation": "Only/just", "types": ["Adverb"], "note": "", "examples": []},
-
         {"word": "Taletader", "translation": "To delete/remove", "types": ["Verb"], "note": "Basic conjugation: taleta", "examples": []},
         {"word": "Rescronfrader", "translation": "To regard/consider", "types": ["Verb"], "note": "Basic conjugation: rescronfra", "examples": []},
         {"word": "Panconder", "translation": "To concern/worry", "types": ["Verb"], "note": "Basic conjugation: pancon", "examples": []},
@@ -595,6 +594,28 @@
         {"word": "Tesciakra", "translation": "Pencil sharpener", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hilurimia", "translation": "Highlighter", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Noiribroli", "translation": "Notebook", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Mezuha", "translation": "Measure", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Mezuha", "translation": "Measure", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Beiscieyder", "translation": "To beg", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Deilazeimader", "translation": "To cut/chop", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Fraklihider", "translation": "To slice", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Ehiriteder", "translation": "To fry", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Kuzistender", "translation": "To cook", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Scioakezeder", "translation": "To heat", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Camanirder", "translation": "To bake", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Dimension", "translation": "Dimaizon", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ghalaima", "translation": "Galaxy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kuzmuz", "translation": "Cosmos", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ehirita", "translation": "Fry", "types": ["Noun"], "note": "A single fry in fries.", "examples": []},
+        {"word": "Colfata", "translation": "Knife", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gasciefa", "translation": "Fork", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kumilere", "translation": "Spoon", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cifo", "translation": "Scissors", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Platla", "translation": "Plate", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Metavla", "translation": "Table", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Casciedia", "translation": "Chair", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Palena", "translation": "Pan", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Refrilino", "translation": "Fridge", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fonour", "translation": "Oven", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pofolo", "translation": "Stove", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
