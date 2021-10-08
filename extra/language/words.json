@@ -616,6 +616,14 @@
         {"word": "Palena", "translation": "Pan", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Refrilino", "translation": "Fridge", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fonour", "translation": "Oven", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Pofolo", "translation": "Stove", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Pofolo", "translation": "Stove", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nidiscieder", "translation": "To nest", "types": ["Verb"], "note": "Basic conjugation: nidiscie", "examples": []},
+        {"word": "Likizdeder", "translation": "To list", "types": ["Verb"], "note": "Basic conjugation: likizde", "examples": []},
+        {"word": "Feiseheder", "translation": "To fly", "types": ["Verb"], "note": "Basic conjugation: feisehe", "examples": []},
+        {"word": "Likizda", "translation": "List", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rujdila", "translation": "Owl", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Minzi", "translation": "Insect", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pozdi", "translation": "Bird", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nidiscia", "translation": "Nest", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
