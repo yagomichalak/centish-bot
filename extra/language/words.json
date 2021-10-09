@@ -624,6 +624,11 @@
         {"word": "Rujdila", "translation": "Owl", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Minzi", "translation": "Insect", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Pozdi", "translation": "Bird", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Nidiscia", "translation": "Nest", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Nidiscia", "translation": "Nest", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mirmozeder", "translation": "To memorize", "types": ["Verb"], "note": "Basic conjugation: mirmoze", "examples": []},
+        {"word": "Flakspeder", "translation": "To flash", "types": ["Verb"], "note": "Basic conjugation: flakspe", "examples": []},
+        {"word": "Mirmoza", "translation": "Memory", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kartu", "translation": "Card", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Flakspa", "translation": "Flash", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
