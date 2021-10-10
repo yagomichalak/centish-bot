@@ -629,6 +629,18 @@
         {"word": "Flakspeder", "translation": "To flash", "types": ["Verb"], "note": "Basic conjugation: flakspe", "examples": []},
         {"word": "Mirmoza", "translation": "Memory", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Kartu", "translation": "Card", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Flakspa", "translation": "Flash", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Flakspa", "translation": "Flash", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Dibalder", "translation": "To dance", "types": ["Verb"], "note": "Basic conjugation: dibal", "examples": []},
+        {"word": "Pousouteder", "translation": "To jump/leap", "types": ["Verb"], "note": "Basic conjugation: pousoute", "examples": []},
+        {"word": "Reikazdieder", "translation": "To react", "types": ["Verb"], "note": "Basic conjugation: reikazdie", "examples": []},
+        {"word": "Horghader", "translation": "To watch", "types": ["Verb"], "note": "Basic conjugation: horgha", "examples": []},
+        {"word": "Rimrakrasder", "translation": "To record", "types": ["Verb"], "note": "Basic conjugation: rimrakras", "examples": []},
+        {"word": "Prosmiklahader", "translation": "To produce", "types": ["Verb"], "note": "Basic conjugation: prosmiklaha", "examples": []},
+        {"word": "Pousouta", "translation": "Jump/leap", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Reikazdia", "translation": "Reaction", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sierie", "translation": "Series", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pelfia", "translation": "Movie/film", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rimrakrasa", "translation": "Recording", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prosmiklapa", "translation": "Product", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
