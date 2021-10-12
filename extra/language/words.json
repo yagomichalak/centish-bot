@@ -646,6 +646,14 @@
         {"word": "Permezia", "translation": "Permission", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Coparaignia", "translation": "Setting", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sciarto", "translation": "Room", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Ciemozis", "translation": "Temporary", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Ciemozis", "translation": "Temporary", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Rikromeder", "translation": "To recognize", "types": ["Verb"], "note": "Basic conjugation: rikrome", "examples": []},
+        {"word": "Ardismuder", "translation": "To gesture/articulate", "types": ["Verb"], "note": "Basic conjugation: ardismu", "examples": []},
+        {"word": "Ihipa", "translation": "Image", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rikroma", "translation": "Recognition", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ardismula", "translation": "Gesture/articulation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Inghetinenhia", "translation": "Intelligence", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Armistris", "translation": "Artificial", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Inghetinis", "translation": "Intelligent", "types": ["Adjective"], "note": "", "examples": []},
     ]  
 }
