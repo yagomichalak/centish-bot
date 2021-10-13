@@ -655,5 +655,11 @@
         {"word": "Inghetinenhia", "translation": "Intelligence", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Armistris", "translation": "Artificial", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Inghetinis", "translation": "Intelligent", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Kalimera", "translation": "Camera", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miffonia", "translation": "Microphone", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tejdabazda", "translation": "Keyboard", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Munilia", "translation": "Monitor", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kriafonior", "translation": "Earphones", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tecafonior", "translation": "Headphones", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
