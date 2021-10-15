@@ -666,6 +666,16 @@
         {"word": "Veiscieder", "translation": "To sell", "types": ["Verb"], "note": "Basic conjugation: veiscie", "examples": []},
         {"word": "Ezgronoia", "translation": "Economy", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Scisclaima", "translation": "System", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Metaudis", "translation": "Method", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Metaudis", "translation": "Method", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kria", "translation": "Head", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Teca", "translation": "Ear", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hoia", "translation": "Eye", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Buscia", "translation": "Mouth", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Izomask", "translation": "Stomach", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Uhighida", "translation": "Bely", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Brakdle", "translation": "Arm", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Magna", "translation": "Hand", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nolegha", "translation": "Leg", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pledia", "translation": "Foot", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
