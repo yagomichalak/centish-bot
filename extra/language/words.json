@@ -676,6 +676,11 @@
         {"word": "Brakdle", "translation": "Arm", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Magna", "translation": "Hand", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Nolegha", "translation": "Leg", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Pledia", "translation": "Foot", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Pledia", "translation": "Foot", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Lihpra", "translation": "Bed", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Lurimi", "translation": "Lamp", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Grakou", "translation": "Floor", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scieto", "translation": "Ceiling", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tezaita", "translation": "Roof", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
