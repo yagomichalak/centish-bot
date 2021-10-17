@@ -681,6 +681,14 @@
         {"word": "Lurimi", "translation": "Lamp", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Grakou", "translation": "Floor", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Scieto", "translation": "Ceiling", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Tezaita", "translation": "Roof", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Tezaita", "translation": "Roof", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scialapou", "translation": "Hat", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tecastia", "translation": "Earring", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mastida", "translation": "Shirt/T-shirt", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nusprieta", "translation": "Underwear", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Haltsinia", "translation": "Panty", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pancalana", "translation": "Pants", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sciozia", "translation": "Sock", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tesciora", "translation": "Shoe", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
