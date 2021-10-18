@@ -689,6 +689,16 @@
         {"word": "Haltsinia", "translation": "Panty", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Pancalana", "translation": "Pants", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sciozia", "translation": "Sock", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Tesciora", "translation": "Shoe", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Tesciora", "translation": "Shoe", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pilanus", "translation": "Piano", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ghitaria", "translation": "Electric guitar", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vinion", "translation": "Acoustic guitar", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Viglinia", "translation": "Violin", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Viglihiel", "translation": "Cello", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bramius", "translation": "Bass", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Calbramius", "translation": "Contrabass", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vrutia", "translation": "Flute", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hokro", "translation": "Trombone", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bahileria", "translation": "Drums", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
