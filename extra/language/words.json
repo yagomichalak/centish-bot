@@ -51,7 +51,7 @@
         {"word": "U", "translation": "In/at/on", "types": ["Preposition"], "note": "", "examples": []},
         {"word": "Benis", "translation": "Good/Well", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Malis", "translation": "Bad", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Pardul", "translation": "Pardon/Sorry", "types": ["Exclamation", "Adjective"], "note": "", "examples": []},
+        {"word": "Pardul", "translation": "Pardon/Sorry/Apology", "types": ["Exclamation", "Adjective", "Noun"], "note": "", "examples": []},
         {"word": "Akra", "translation": "Water", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Naggis", "translation": "Nothing", "types": ["Pronoun", "Noun"], "note": "Can be used as 'you're welcome' after someone says 'thank you'", "examples": []},
         {"word": "Benin", "translation": "Beginning", "types": ["Noun"], "note": "", "examples": []},
@@ -699,6 +699,16 @@
         {"word": "Calbramius", "translation": "Contrabass", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Vrutia", "translation": "Flute", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hokro", "translation": "Trombone", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Bahileria", "translation": "Drums", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Bahileria", "translation": "Drums", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tropraeseder", "translation": "To try", "types": ["Verb"], "note": "Basic conjugation: tropraese", "examples": []},
+        {"word": "Fascietieder", "translation": "To fail", "types": ["Verb"], "note": "Basic conjugation: fascietie", "examples": []},
+        {"word": "Ascihesteder", "translation": "To expect", "types": ["Verb"], "note": "Basic conjugation: asciheste", "examples": []},
+        {"word": "Parduleder", "translation": "To apologize", "types": ["Verb"], "note": "Basic conjugation: pardule", "examples": []},
+        {"word": "Tropraesa", "translation": "Attempt", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ascihesta", "translation": "Expectation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fascietia", "translation": "Failure", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ejde", "translation": "Event", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ziskrinais", "translation": "Evitable", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Niziskrinais", "translation": "Inevitable", "types": ["Adjective"], "note": "", "examples": []}
     ]  
 }
