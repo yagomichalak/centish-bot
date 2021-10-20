@@ -709,6 +709,13 @@
         {"word": "Fascietia", "translation": "Failure", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ejde", "translation": "Event", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ziskrinais", "translation": "Evitable", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Niziskrinais", "translation": "Inevitable", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Niziskrinais", "translation": "Inevitable", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Demroleder", "translation": "To give up/abandon", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Noifrajgieder", "translation": "To neglect", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Rifloumleder", "translation": "To refuse", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Demrola", "translation": "Givin up/abandonment", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Noifrajgia", "translation": "Neglect/neglection", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Rifloumla", "translation": "Refusal", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Akseerdada", "translation": "Acceptance/acceptation", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }

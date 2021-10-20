@@ -94,7 +94,8 @@ async def on_message_nice_words(message: discord.Message) -> None:
             continue
 
         if content.lower().startswith(found[0]):
-            return await message.reply(choice(replies))
+            # return await message.reply(choice(replies))
+            return await message.add_reaction('👍')
 
 @client.command()
 async def help(ctx, *, cmd: str =  None):
