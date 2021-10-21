@@ -716,6 +716,11 @@
         {"word": "Demrola", "translation": "Givin up/abandonment", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Noifrajgia", "translation": "Neglect/neglection", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Rifloumla", "translation": "Refusal", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Akseerdada", "translation": "Acceptance/acceptation", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Akseerdada", "translation": "Acceptance/acceptation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sboa", "translation": "Box", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Curita", "translation": "Curtain", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bloscia", "translation": "Bag", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fueema", "translation": "Hoodie", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Dopacar", "translation": "Folder", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
