@@ -721,6 +721,11 @@
         {"word": "Curita", "translation": "Curtain", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Bloscia", "translation": "Bag", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fueema", "translation": "Hoodie", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Dopacar", "translation": "Folder", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Dopacar", "translation": "Folder", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Verco", "translation": "Blanket", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Lihpramabel", "translation": "Bedsheet/sheet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Setotiera", "translation": "Towel", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mabel", "translation": "Paper/sheet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Eskarscipa", "translation": "Scarf", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
