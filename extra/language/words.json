@@ -726,6 +726,11 @@
         {"word": "Lihpramabel", "translation": "Bedsheet/sheet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Setotiera", "translation": "Towel", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Mabel", "translation": "Paper/sheet", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Eskarscipa", "translation": "Scarf", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Eskarscipa", "translation": "Scarf", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Casciro", "translation": "Dog", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ghascia", "translation": "Cat", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Grighe", "translation": "Cricket", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Copila", "translation": "Bunny/rabbit", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Aprana", "translation": "Duck", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
