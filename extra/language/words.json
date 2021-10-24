@@ -731,6 +731,11 @@
         {"word": "Ghascia", "translation": "Cat", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Grighe", "translation": "Cricket", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Copila", "translation": "Bunny/rabbit", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Aprana", "translation": "Duck", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Aprana", "translation": "Duck", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Clastreder", "translation": "To break", "types": ["Verb"], "note": "Basic conjugation: clastre", "examples": []},
+        {"word": "Reconreder", "translation": "To fix/patch up/repair", "types": ["Verb"], "note": "Basic conjugation: reconre", "examples": []},
+        {"word": "Cori", "translation": "Heart", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miru", "translation": "Wall", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Poih", "translation": "Door", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
