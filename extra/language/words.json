@@ -736,6 +736,11 @@
         {"word": "Reconreder", "translation": "To fix/patch up/repair", "types": ["Verb"], "note": "Basic conjugation: reconre", "examples": []},
         {"word": "Cori", "translation": "Heart", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Miru", "translation": "Wall", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Poih", "translation": "Door", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Poih", "translation": "Door", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Craheneder", "translation": "To stroke", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Vizia", "translation": "Face", "types": ["Noun"], "note": "crahene", "examples": []},
+        {"word": "Cascivia", "translation": "Hair", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Drazia", "translation": "Flag", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Lanie", "translation": "Country", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
