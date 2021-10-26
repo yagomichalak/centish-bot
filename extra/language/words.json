@@ -741,6 +741,11 @@
         {"word": "Vizia", "translation": "Face", "types": ["Noun"], "note": "crahene", "examples": []},
         {"word": "Cascivia", "translation": "Hair", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Drazia", "translation": "Flag", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Lanie", "translation": "Country", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Lanie", "translation": "Country", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Moieder", "translation": "To wet", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Seescieder", "translation": "To dry", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Moiys", "translation": "Wet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Seesciys", "translation": "Dry", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bonjda", "translation": "Sponge", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
