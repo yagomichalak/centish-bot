@@ -746,6 +746,11 @@
         {"word": "Seescieder", "translation": "To dry", "types": ["Verb"], "note": "", "examples": []},
         {"word": "Moiys", "translation": "Wet", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Seesciys", "translation": "Dry", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Bonjda", "translation": "Sponge", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Bonjda", "translation": "Sponge", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Akzaiteder", "translation": "To activate/enable", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Dkzaiteder", "translation": "To deactivate/disable", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Odoscia", "translation": "Scent/aroma/fragrance/smell", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Menespri", "translation": "Mind", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pacolo", "translation": "Crazy", "types": ["Adjective"], "note": "", "examples": []}
     ]  
 }
