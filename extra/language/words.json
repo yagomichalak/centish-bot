@@ -751,6 +751,11 @@
         {"word": "Dkzaiteder", "translation": "To deactivate/disable", "types": ["Verb"], "note": "Basic conjugation: dkzaite", "examples": []},
         {"word": "Odoscia", "translation": "Scent/aroma/fragrance/smell", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Menespri", "translation": "Mind", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Pacolo", "translation": "Crazy", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Pacolo", "translation": "Crazy", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Nanaba", "translation": "Banana", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Mepala", "translation": "Apple", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pescia", "translation": "Peach", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Anascia", "translation": "Pineapple", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miehton", "translation": "Melon", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
