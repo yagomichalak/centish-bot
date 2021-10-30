@@ -761,6 +761,11 @@
         {"word": "Corpista", "translation": "Pickle", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Koukou", "translation": "Cocoa", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sciokoladia", "translation": "Chocolate", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Precron", "translation": "Cucumber", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Precron", "translation": "Cucumber", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Basciuhas", "translation": "Barbecue", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Biera", "translation": "Beer", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Alukoh", "translation": "Alcohol", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Marn", "translation": "Meat", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Divaimis", "translation": "Fun", "types": ["Noun", "Adjective"], "note": "", "examples": []}
     ]  
 }
