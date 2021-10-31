@@ -766,6 +766,11 @@
         {"word": "Biera", "translation": "Beer", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Alukoh", "translation": "Alcohol", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Marn", "translation": "Meat", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Divaimis", "translation": "Fun", "types": ["Noun", "Adjective"], "note": "", "examples": []}
+        {"word": "Divaimis", "translation": "Fun", "types": ["Noun", "Adjective"], "note": "", "examples": []},
+        {"word": "Broprescieder", "translation": "To need", "types": ["Verb"], "note": "Basic conjugation: broprescie", "examples": []},
+        {"word": "Dezidieder", "translation": "To decide", "types": ["Verb"], "note": "Basic conjugation: dezidie", "examples": []},
+        {"word": "Broprescia", "translation": "Need", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Dezidia", "translation": "Decision", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Preveto", "translation": "Soon", "types": ["Adverb"], "note": "", "examples": []}
     ]  
 }
