@@ -771,6 +771,11 @@
         {"word": "Dezidieder", "translation": "To decide", "types": ["Verb"], "note": "Basic conjugation: dezidie", "examples": []},
         {"word": "Broprescia", "translation": "Need", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Dezidia", "translation": "Decision", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Preveto", "translation": "Soon", "types": ["Adverb"], "note": "", "examples": []}
+        {"word": "Preveto", "translation": "Soon", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Pariscoeder", "translation": "To bet", "types": ["Verb"], "note": "Basic conjugation: pariscoe", "examples": []},
+        {"word": "Prizio", "translation": "Prize/award/reward", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Kazino", "translation": "Casino", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Jdiojo", "translation": "Game/gambling", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pariscoa", "translation": "Bet", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
