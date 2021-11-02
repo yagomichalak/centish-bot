@@ -118,7 +118,7 @@
         {"word": "Atuazia", "translation": "Update", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ambinke", "translation": "Environment", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Intrispis", "translation": "Interesting", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mujbo", "translation": "Very/Much/a lot", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Mujbo", "translation": "Very/Much/a lot/many", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Teche", "translation": "Too/Also", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Tun", "translation": "This", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
         {"word": "Matun", "translation": "That", "types": ["Determiner", "Conjunction", "Adverb", "Pronoun"], "note": "", "examples": []},
@@ -776,6 +776,16 @@
         {"word": "Prizio", "translation": "Prize/award/reward", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Kazino", "translation": "Casino", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Jdiojo", "translation": "Game/gambling", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Pariscoa", "translation": "Bet", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Pariscoa", "translation": "Bet", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Disvijdeder", "translation": "To distance", "types": ["Verb"], "note": "Basic conjugation: disvijde", "examples": []},
+        {"word": "Veuotider", "translation": "To empty", "types": ["Verb"], "note": "Basic conjugation: veuoti", "examples": []},
+        {"word": "Zaulos", "translation": "Alone", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Veuotis", "translation": "Empty", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Disvijda", "translation": "Distance", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Trimistria", "translation": "Sadness", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Prahiesa", "translation": "Question", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Riznoista", "translation": "Answer", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fehetria", "translation": "Happiness", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Enjai", "translation": "Together", "types": ["Adverb"], "note": "", "examples": []}
     ]  
 }
