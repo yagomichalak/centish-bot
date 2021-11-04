@@ -237,7 +237,7 @@
         {"word": "Comouneeta", "translation": "Community", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Regligra", "translation": "Rule", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Piezzurura", "translation": "Safety", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Piezzuro", "translation": "Safe", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Piezzuro", "translation": "Safe/secure", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Hazzurura", "translation": "Danger", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hazzura", "translation": "Dangerous", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Constujda", "translation": "Constitution", "types": ["Noun"], "note": "", "examples": []},
@@ -786,6 +786,18 @@
         {"word": "Prahiesa", "translation": "Question", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Riznoista", "translation": "Answer", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fehetria", "translation": "Happiness", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Enjai", "translation": "Together", "types": ["Adverb"], "note": "", "examples": []}
+        {"word": "Enjai", "translation": "Together", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Drivrileder", "translation": "To deviate/deflect/divert", "types": ["Verb"], "note": "Basic conjugation: drivrile", "examples": []},
+        {"word": "Ujdezeder", "translation": "To use", "types": ["Verb"], "note": "Basic conjugation: ujdeze", "examples": []},
+        {"word": "Bankus", "translation": "Bank", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ujdeza", "translation": "Use/usage", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Devinitis", "translation": "Definite", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Nidevinitis", "translation": "Indefinite", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Ujdezis", "translation": "Useful", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Sbruteder", "translation": "To support", "types": ["Verb"], "note": "Basic conjugation: sbrute", "examples": []},
+        {"word": "Garbieder", "translation": "To guarantee", "types": ["Verb"], "note": "Basic conjugation: garbie", "examples": []},
+        {"word": "Sbruta", "translation": "Support", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Garbia", "translation": "Guarantee", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Emousta", "translation": "Emotion", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
