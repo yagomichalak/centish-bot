@@ -798,6 +798,11 @@
         {"word": "Garbieder", "translation": "To guarantee", "types": ["Verb"], "note": "Basic conjugation: garbie", "examples": []},
         {"word": "Sbruta", "translation": "Support", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Garbia", "translation": "Guarantee", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Emousta", "translation": "Emotion", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Emousta", "translation": "Emotion", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Braketreder", "translation": "To beat", "types": ["Verb"], "note": "Basic conjugation: braketre", "examples": []},
+        {"word": "Colubreder", "translation": "To fight", "types": ["Verb"], "note": "Basic conjugation: colubre", "examples": []},
+        {"word": "Mahdraeder", "translation": "To kill", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Colubra", "translation": "Fight", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Colubramiuza", "translation": "Fighter", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
