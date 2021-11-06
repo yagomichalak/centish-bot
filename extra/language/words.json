@@ -132,7 +132,7 @@
         {"word": "Desviluma", "translation": "Development", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Idai", "translation": "Idea", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Soregnia", "translation": "Dream", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Condruteder", "translation": "To construct", "types": ["Verb"], "note": "Basic conjugation: condrute", "examples": []},
+        {"word": "Condruteder", "translation": "To construct/build", "types": ["Verb"], "note": "Basic conjugation: condrute", "examples": []},
         {"word": "Rimeder", "translation": "To laugh", "types": ["Verb"], "note": "Basic conjugation: rime", "examples": []},
         {"word": "Opinai", "translation": "Opinion", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Sujdai", "translation": "Suggestion", "types": ["Noun"], "note": "", "examples": []},
@@ -803,6 +803,18 @@
         {"word": "Colubreder", "translation": "To fight", "types": ["Verb"], "note": "Basic conjugation: colubre", "examples": []},
         {"word": "Mahdraeder", "translation": "To kill", "types": ["Verb"], "note": "", "examples": []},
         {"word": "Colubra", "translation": "Fight", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Colubramiuza", "translation": "Fighter", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Colubramiuza", "translation": "Fighter", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Urodieder", "translation": "To surround", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Drikazeder", "translation": "To destroy/destruct", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Sprasfreder", "translation": "To scare", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Urodia", "translation": "Surrounding", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Drikaza", "translation": "Destruction", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sizia", "translation": "Ash", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Casciatal", "translation": "Castle", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Tormiria", "translation": "Turret", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Nazgha", "translation": "Sure/certain", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Ninazha", "translation": "Unsure/uncertain", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Sprasfris", "translation": "Scared", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Rodia", "translation": "Around", "types": ["Adverb", "Preposition"], "note": "", "examples": []}
     ]  
 }
