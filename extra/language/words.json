@@ -96,7 +96,7 @@
         {"word": "Skis", "translation": "Her", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Tkis", "translation": "Its", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Wkis", "translation": "Our", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mkis", "translation": "Their", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Mkis", "translation": "Their", "tzypes": ["Adjective"], "note": "", "examples": []},
         {"word": "Qkisis", "translation": "Mine", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Dkisis", "translation": "Yours", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Hkisis", "translation": "His", "types": ["Pronoun"], "note": "", "examples": []},
@@ -813,8 +813,18 @@
         {"word": "Casciatal", "translation": "Castle", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Tormiria", "translation": "Turret", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Nazgha", "translation": "Sure/certain", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Ninazha", "translation": "Unsure/uncertain", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Ninazgha", "translation": "Unsure/uncertain", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Sprasfris", "translation": "Scared", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Rodia", "translation": "Around", "types": ["Adverb", "Preposition"], "note": "", "examples": []}
+        {"word": "Rodia", "translation": "Around", "types": ["Adverb", "Preposition"], "note": "", "examples": []},
+        {"word": "Paceseder", "translation": "To happen", "types": ["Verb"], "note": "Basic conjugation: pacese", "examples": []},
+        {"word": "Catecheder", "translation": "To fall", "types": ["Verb"], "note": "Basic conjugation: cateche", "examples": []},
+        {"word": "Monlitastieder", "translation": "To motivate", "types": ["Verb"], "note": "Basic conjugation: monlitastie", "examples": []},
+        {"word": "Forunta", "translation": "Source", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pozera", "translation": "Power", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Monlitastia", "translation": "Motivation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cateca", "translation": "Fall", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Uninflis", "translation": "Main", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Duninflis", "translation": "Secondary", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Adrentu", "translation": "Now", "types": ["Adverb", "Conjunction"], "note": "", "examples": []}
     ]  
 }
