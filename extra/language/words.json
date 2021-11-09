@@ -825,6 +825,12 @@
         {"word": "Cateca", "translation": "Fall", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Uninflis", "translation": "Main", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Duninflis", "translation": "Secondary", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Adrentu", "translation": "Now", "types": ["Adverb", "Conjunction"], "note": "", "examples": []}
+        {"word": "Adrentu", "translation": "Now", "types": ["Adverb", "Conjunction"], "note": "", "examples": []},
+        {"word": "Ishalieder", "translation": "To heal/cure", "types": ["Verb"], "note": "Basic conjugation: ishalie", "examples": []},
+        {"word": "Danuseder", "translation": "To damage", "types": ["Verb"], "note": "Basic conjugation: danuse", "examples": []},
+        {"word": "Ishalia", "translation": "Heal/cure", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Danusa", "translation": "Damage", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Proscin", "translation": "Near/close", "types": ["Adverb", "Preposition", "Adjective"], "note": "", "examples": []},
+        {"word": "Lospantus", "translation": "Far", "types": ["Adverb", "Adjective"], "note": "", "examples": []}
     ]  
 }
