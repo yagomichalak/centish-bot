@@ -831,6 +831,11 @@
         {"word": "Ishalia", "translation": "Heal/cure", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Danusa", "translation": "Damage", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Proscin", "translation": "Near/close", "types": ["Adverb", "Preposition", "Adjective"], "note": "", "examples": []},
-        {"word": "Lospantus", "translation": "Far", "types": ["Adverb", "Adjective"], "note": "", "examples": []}
+        {"word": "Lospantus", "translation": "Far", "types": ["Adverb", "Adjective"], "note": "", "examples": []},
+        {"word": "Konitunieder", "translation": "To continue", "types": ["Verb"], "note": "Basic conjugation: konitunie", "examples": []},
+        {"word": "Konitunia", "translation": "Continuation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Hajd", "translation": "Today", "types": ["Adverb", "Noun"], "note": "", "examples": []},
+        {"word": "Amanjd", "translation": "Tomorrow", "types": ["Adverb", "Noun"], "note": "", "examples": []},
+        {"word": "Nokjd", "translation": "Yesterday", "types": ["Adverb", "Noun"], "note": "", "examples": []}
     ]  
 }
