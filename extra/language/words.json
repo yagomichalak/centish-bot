@@ -56,7 +56,7 @@
         {"word": "Naggis", "translation": "Nothing", "types": ["Pronoun", "Noun"], "note": "Can be used as 'you're welcome' after someone says 'thank you'", "examples": []},
         {"word": "Benin", "translation": "Beginning", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Minin", "translation": "Middle", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Finin", "translation": "Ending", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Finin", "translation": "Ending/end", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Humes", "translation": "Human", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Bafhumes", "translation": "Baby", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Binhumes", "translation": "Child", "types": ["Noun"], "note": "", "examples": []},
@@ -836,6 +836,16 @@
         {"word": "Konitunia", "translation": "Continuation", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Hajd", "translation": "Today", "types": ["Adverb", "Noun"], "note": "", "examples": []},
         {"word": "Amanjd", "translation": "Tomorrow", "types": ["Adverb", "Noun"], "note": "", "examples": []},
-        {"word": "Nokjd", "translation": "Yesterday", "types": ["Adverb", "Noun"], "note": "", "examples": []}
+        {"word": "Nokjd", "translation": "Yesterday", "types": ["Adverb", "Noun"], "note": "", "examples": []},
+        {"word": "Beghebeder", "translation": "To take", "types": ["Verb"], "note": "Basic conjugation: beghebe", "examples": []},
+        {"word": "Reluzitateder", "translation": "To result", "types": ["Verb"], "note": "Basic conjugation: reluzitate", "examples": []},
+        {"word": "Ritorardieder", "translation": "To delay", "types": ["Verb"], "note": "Basic conjugation: ritorardie", "examples": []},
+        {"word": "Disprikrehenzzieder", "translation": "To differ", "types": ["Verb"], "note": "Basic conjugation: disprikrehenzzie", "examples": []},
+        {"word": "Reluzitata", "translation": "Result", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ritorardia", "translation": "Delay", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Disprikehenzzia", "translation": "Difference", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Febenomina", "translation": "Phenomenon", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Fusbrama", "translation": "Strength", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Desbrama", "translation": "Weakness", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
