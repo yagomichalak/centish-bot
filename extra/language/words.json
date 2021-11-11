@@ -345,7 +345,7 @@
         {"word": "Mehis", "translation": "Even", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Zata", "translation": "So", "types": ["Adverb", "Conjunction"], "note": "", "examples": []},
         {"word": "Ajdkreder", "translation": "To add", "types": ["Verb"], "note": "Basic conjugation: ajdkre", "examples": []},
-        {"word": "Prahieseder", "translation": "To ask", "types": ["Verb"], "note": "Basic conjugation: prahiese", "examples": []},
+        {"word": "Prahieseder", "translation": "To ask/question", "types": ["Verb"], "note": "Basic conjugation: prahiese", "examples": []},
         {"word": "Ibizdarieder", "translation": "To inspire", "types": ["Verb"], "note": "Basic conjugation: ibizdarie", "examples": []},
         {"word": "Purfakis", "translation": "Please", "types": ["Adverb"], "note": "", "examples": []},
         {"word": "Tuzibi", "translation": "Always", "types": ["Adverb"], "note": "", "examples": []},
@@ -846,6 +846,16 @@
         {"word": "Disprikehenzzia", "translation": "Difference", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Febenomina", "translation": "Phenomenon", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Fusbrama", "translation": "Strength", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Desbrama", "translation": "Weakness", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Desbrama", "translation": "Weakness", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Trovascieder", "translation": "To find", "types": ["Verb"], "note": "Basic conjugation: trovascie", "examples": []},
+        {"word": "Ahiperkeder", "translation": "To regret", "types": ["Verb"], "note": "Basic conjugation: ahiperke", "examples": []},
+        {"word": "Brelazeder", "translation": "To appreciate", "types": ["Verb"], "note": "Basic conjugation: brelaze", "examples": []},
+        {"word": "Progoaeder", "translation": "To enjoy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Edezilenzzia", "translation": "Consequence", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Sprasfra", "translation": "Fear", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ziduascia", "translation": "Situation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ahiperka", "translation": "Regret", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Brelaza", "translation": "Appreciate", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Moimen", "translation": "Moment", "types": ["Noun"], "note": "", "examples": []}
     ]  
 }
