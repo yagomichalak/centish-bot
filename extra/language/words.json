@@ -856,6 +856,11 @@
         {"word": "Ziduascia", "translation": "Situation", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ahiperka", "translation": "Regret", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Brelaza", "translation": "Appreciate", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Moimen", "translation": "Moment", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Moimen", "translation": "Moment", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vizieder", "translation": "To face/stare", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Poscideder", "translation": "To message", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Viziplika", "translation": "Technique", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Vizilis", "translation": "Technical", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Mucascilis", "translation": "Changeable/ever-changing", "types": ["Adjective"], "note": "", "examples": []}
     ]  
 }
