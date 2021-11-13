@@ -532,7 +532,7 @@
         {"word": "Revaj", "translation": "Network", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Zousa", "translation": "Service", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Finineder", "translation": "To finish/terminate/end/complete", "types": ["Verb"], "note": "Basic conjugation: finine", "examples": []},
-        {"word": "Pahayder", "translation": "To leave/depart", "types": ["Verb"], "note": "Basic conjugation: pahay", "examples": []},
+        {"word": "Pahayder", "translation": "To leave/depart/let", "types": ["Verb"], "note": "Basic conjugation: pahay", "examples": []},
         {"word": "Riklezeder", "translation": "To reflect", "types": ["Verb"], "note": "Basic conjugation: rikleze", "examples": []},
         {"word": "Rikleza", "translation": "Reflection", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Pascionera", "translation": "Passion", "types": ["Noun"], "note": "", "examples": []},
@@ -861,6 +861,14 @@
         {"word": "Poscideder", "translation": "To message", "types": ["Verb"], "note": "Basic conjugation: poscide", "examples": []},
         {"word": "Dekiplika", "translation": "Technique", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Dekilis", "translation": "Technical", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mucascilis", "translation": "Changeable/ever-changing", "types": ["Adjective"], "note": "", "examples": []}
-    ]  
+        {"word": "Mucascilis", "translation": "Changeable/ever-changing", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Parbleeder", "translation": "To seem", "types": ["Verb"], "note": "Basic conjugation: parblee", "examples": []},
+        {"word": "Alvercheder", "translation": "To wake up", "types": ["Verb"], "note": "Basic conjugation: alverche", "examples": []},
+        {"word": "Bezklineder", "translation": "To specify", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Parscieder", "translation": "To stop", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Bezklina", "translation": "Specification", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cianziona", "translation": "Song", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bezklinis", "translation": "Specific/certain", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Alverchis", "translation": "Awake", "types": ["Adjective"], "note": "", "examples": []}
+    ]
 }
