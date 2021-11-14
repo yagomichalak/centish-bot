@@ -869,6 +869,16 @@
         {"word": "Bezklina", "translation": "Specification", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Cianziona", "translation": "Song", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Bezklinis", "translation": "Specific/certain", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Alverchis", "translation": "Awake", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Alverchis", "translation": "Awake", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Vlizideder", "translation": "To visit", "types": ["Verb"], "note": "Basic conjugation: vlizide", "examples": []},
+        {"word": "Menieder", "translation": "To lie", "types": ["Verb"], "note": "Basic conjugation: menie", "examples": []},
+        {"word": "Vlizida", "translation": "Visit", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Menia", "translation": "Lie", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gnastasia", "translation": "Fantasy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Uvenopa", "translation": "Bye", "types": ["Noun", "Exclamation"], "note": "", "examples": []},
+        {"word": "Majduvenopa", "translation": "Goodbye", "types": ["Noun", "Exclamation"], "note": "", "examples": []},
+        {"word": "Ki", "translation": "Here", "types": ["Adverb", "Exclamation"], "note": "", "examples": []},
+        {"word": "Laki", "translation": "There", "types": ["Adverb", "Exclamation"], "note": "", "examples": []},
+        {"word": "Majdai", "translation": "Never", "types": ["Adverb"], "note": "", "examples": []}
     ]
 }
