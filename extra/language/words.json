@@ -879,6 +879,18 @@
         {"word": "Majduvenopa", "translation": "Goodbye", "types": ["Noun", "Exclamation"], "note": "", "examples": []},
         {"word": "Ki", "translation": "Here", "types": ["Adverb", "Exclamation"], "note": "", "examples": []},
         {"word": "Laki", "translation": "There", "types": ["Adverb", "Exclamation"], "note": "", "examples": []},
-        {"word": "Majdai", "translation": "Never", "types": ["Adverb"], "note": "", "examples": []}
+        {"word": "Majdai", "translation": "Never", "types": ["Adverb"], "note": "", "examples": []},
+        {"word": "Bokiloeder", "translation": "To stuck", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Rezigheder", "translation": "To breathe", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Zvokaeder", "translation": "To suffocate", "types": ["Verb"], "note": "", "examples": []},
+        {"word": "Vojda", "translation": "Voice", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Reziga", "translation": "Breath/respiration", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Afihenazia", "translation": "Anxiety", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Atenscia", "translation": "Attention", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Zvokaa", "translation": "Suffocation", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bokiloelis", "translation": "Stuck", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Simplis", "translation": "Simple", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Zvokaelis", "translation": "Suffocating", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Afihenazis", "translation": "Anxious", "types": ["Adjective"], "note": "", "examples": []}
     ]
 }
