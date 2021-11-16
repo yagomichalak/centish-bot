@@ -891,6 +891,14 @@
         {"word": "Bokiloelis", "translation": "Stuck", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Simplis", "translation": "Simple", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Zvokaelis", "translation": "Suffocating", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Afihenazis", "translation": "Anxious", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Afihenazis", "translation": "Anxious", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Pascieder", "translation": "To pass", "types": ["Verb"], "note": "Basic conjugation: pascie", "examples": []},
+        {"word": "Gonglureder", "translation": "To achieve", "types": ["Verb"], "note": "Basic conjugation: gonglure", "examples": []},
+        {"word": "Jdemaneder", "translation": "To manage", "types": ["Verb"], "note": "Basic conjugation: jdemane", "examples": []},
+        {"word": "Jdemana", "translation": "To management", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Jdemanamiuza", "translation": "Manager", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Muzigha", "translation": "Music", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Gonglura", "translation": "Achievement", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pagnaskio", "translation": "Clown", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
