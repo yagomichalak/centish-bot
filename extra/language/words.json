@@ -899,6 +899,12 @@
         {"word": "Jdemanamiuza", "translation": "Manager", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Muzigha", "translation": "Music", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Gonglura", "translation": "Achievement", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Pagnaskio", "translation": "Clown", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Pagnaskio", "translation": "Clown", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scientrieder", "translation": "To center", "types": ["Verb"], "note": "Basic conjugation: scientrie", "examples": []},
+        {"word": "Scientria", "translation": "Center", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Miare", "translation": "Sea", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Oscieanu", "translation": "Ocean", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Estafaleer", "translation": "Shelf", "types": ["Noun"], "note": "", "examples": []}
+
     ]
 }
