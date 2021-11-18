@@ -904,7 +904,11 @@
         {"word": "Scientria", "translation": "Center", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Miare", "translation": "Sea", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Oscieanu", "translation": "Ocean", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Estafaleer", "translation": "Shelf", "types": ["Noun"], "note": "", "examples": []}
-
+        {"word": "Estafaleer", "translation": "Shelf", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Naklivinieder", "translation": "To navigate/browse", "types": ["Verb"], "note": "Basic conjugation: naklivinie", "examples": []},
+        {"word": "Hrimeder", "translation": "To paddle/row", "types": ["Verb"], "note": "Basic conjugation: hrime", "examples": []},
+        {"word": "Hrima", "translation": "Paddle/oar", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Naklivinie", "translation": "Ship", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bacratou", "translation": "Boat", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
