@@ -13,7 +13,7 @@
         {"word": "Fafter", "translation": "After", "types": ["Noun", "Adjective", "Adverb", "Conjunction", "Preposition"], "note": "", "examples": []},
         {"word": "Bafter", "translation": "Before", "types": ["Noun", "Adverb", "Conjunction", "Preposition"], "note": "", "examples": []},
         {"word": "Cajdklaje", "translation": "Centish", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Itajdklaje", "translation": "Itajdklaje", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Itajdklaje", "translation": "Italian", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Mahneeder", "translation": "To love", "types": ["Verb"], "note": "Basic conjugation: mahneed", "examples": []},
         {"word": "Opder", "translation": "To like", "types": ["Verb"], "note": "Basic conjugation: op", "examples": []},
         {"word": "Fereder", "translation": "To do/make", "types": ["Verb"], "note": "Basic conjugation: fere", "examples": []},
@@ -909,6 +909,18 @@
         {"word": "Hrimeder", "translation": "To paddle/row", "types": ["Verb"], "note": "Basic conjugation: hrime", "examples": []},
         {"word": "Hrima", "translation": "Paddle/oar", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Naklivinie", "translation": "Ship", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Bacratou", "translation": "Boat", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Bacratou", "translation": "Boat", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Pasciapur", "translation": "Passport", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scidiala", "translation": "Citizen", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scidiazilia", "translation": "Citizenship", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Itajdia", "translation": "Italy", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Brajdia", "translation": "Brazil", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Franjdia", "translation": "France", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Beujdia", "translation": "Belgium", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Inghijdia", "translation": "England", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Irujdia", "translation": "Ireland", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Polujdia", "translation": "Poland", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Almujdia", "translation": "Germany", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Portujdia", "translation": "Portugal", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
