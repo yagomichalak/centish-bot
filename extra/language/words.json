@@ -921,6 +921,11 @@
         {"word": "Irujdia", "translation": "Ireland", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Polujdia", "translation": "Poland", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Almujdia", "translation": "Germany", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Portujdia", "translation": "Portugal", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Portujdia", "translation": "Portugal", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Unimis Zdaror l'Amrika", "translation": "United States of America", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Unimis Arab Emirior", "translation": "United Arab Emirates", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Zdara", "translation": "State", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Emiria", "translation": "Emirate", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Unimis", "translation": "United", "types": ["Adjective"], "note": "", "examples": []}
     ]
 }
