@@ -926,6 +926,26 @@
         {"word": "Unimis Arab Emirior", "translation": "United Arab Emirates", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Zdara", "translation": "State", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Emiria", "translation": "Emirate", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Unimis", "translation": "United", "types": ["Adjective"], "note": "", "examples": []}
+        {"word": "Unimis", "translation": "United", "types": ["Adjective"], "note": "", "examples": []},
+        {"word": "Albajdia", "translation": "Albania", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Alghejdia", "translation": "Algeria", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Angoujdia", "translation": "Angola", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Arghejdia", "translation": "Argentina", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Armejdia", "translation": "Armenia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astrajdia", "translation": "Australia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Astrijdia", "translation": "Austria", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Belisrujdia", "translation": "Belarus", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bojdia", "translation": "Bolivia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Bogujdia", "translation": "Bulgaria", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Canajdia", "translation": "Canada", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scijdia", "translation": "Chile", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scinijdia", "translation": "China", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Colujdia", "translation": "Colombia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Croujdia", "translation": "Croatia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Scriprojdia", "translation": "Cyprus", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Cekijdia", "translation": "Czech Republic/Czechia", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Denijdia", "translation": "Denmark", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Ekujdia", "translation": "Ecuador", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Egijdia", "translation": "Egypt", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
