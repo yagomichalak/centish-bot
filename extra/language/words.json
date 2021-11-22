@@ -486,7 +486,7 @@
         {"word": "Ariarika", "translation": "Asia", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ervorika", "translation": "Europe", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Nuplo Amrika", "translation": "North America", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Suplo Amrika", "translation": "Sotuh America", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Suplo Amrika", "translation": "South America", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Antajdrika", "translation": "Antarctica", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Arvatrika", "translation": "Australia", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Esporatis", "translation": "Hopeful", "types": ["Adjective"], "note": "", "examples": []},
@@ -946,6 +946,27 @@
         {"word": "Cekijdia", "translation": "Czech Republic/Czechia", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Denijdia", "translation": "Denmark", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Ekujdia", "translation": "Ecuador", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Egijdia", "translation": "Egypt", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Egijdia", "translation": "Egypt", "types": ["Noun"], "note": "", "examples": []},
+
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "", "translation": "", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
