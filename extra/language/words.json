@@ -998,6 +998,7 @@
         {"word": "Ucrajdia", "translation": "Ukraine", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Urujdia", "translation": "Uruguay", "types": ["Noun"], "note": "", "examples": []},
         {"word": "Venujdia", "translation": "Venezuela", "types": ["Noun"], "note": "", "examples": []},
-        {"word": "Vietujdia", "translation": "Vietnam", "types": ["Noun"], "note": "", "examples": []}
+        {"word": "Vietujdia", "translation": "Vietnam", "types": ["Noun"], "note": "", "examples": []},
+        {"word": "Susroapta", "translation": "Whisper", "types": ["Noun"], "note": "", "examples": []}
     ]
 }
