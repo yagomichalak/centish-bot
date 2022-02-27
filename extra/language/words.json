@@ -96,7 +96,7 @@
         {"word": "Skis", "translation": "Her", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Tkis", "translation": "Its", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Wkis", "translation": "Our", "types": ["Adjective"], "note": "", "examples": []},
-        {"word": "Mkis", "translation": "Their", "tzypes": ["Adjective"], "note": "", "examples": []},
+        {"word": "Mkis", "translation": "Their", "types": ["Adjective"], "note": "", "examples": []},
         {"word": "Qkisis", "translation": "Mine", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Dkisis", "translation": "Yours", "types": ["Pronoun"], "note": "", "examples": []},
         {"word": "Hkisis", "translation": "His", "types": ["Pronoun"], "note": "", "examples": []},
